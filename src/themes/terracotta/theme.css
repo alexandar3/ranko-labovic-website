@@ -1,0 +1,49 @@
+/* Theme "terracotta" — concrete, oxidised copper and Adriatic roof-tile red.
+   Display: Unbounded (wide geometric, modern) · Text: Onest (clean contemporary grotesk). Both cover Latin-Ext + Cyrillic.
+   Switch themes with "theme" in content/site.json (or THEME=terracotta npm run build). */
+:root {
+  /* surfaces — cool board-formed concrete */
+  --bg: #e8e7e3;
+  --panel: #f3f2ef;
+  --white: #ffffff;
+  --intro-bg: #fbfaf8;
+  --line: #d3d1cb;
+  /* text */
+  --ink: #1b1d1c;
+  --mut: #585d59;         /* WCAG AA on all light surfaces */
+  --pale: #efcfc0;        /* pale terracotta first word of giant headings (decorative) */
+  /* accent — terracotta roof tile */
+  --accent: #a63f20;
+  --accent-hover: #86321a;
+  --accent-lt: #ee8d68;   /* terracotta on dark */
+  --on-accent: #ffffff;
+  /* dark nav + contact band — oxidised copper green */
+  --dark: #1e2c28;
+  --on-dark: #eef1ed;
+  --on-dark-mut: #a9b7b1;
+  --line-dark: rgba(255, 255, 255, .12);
+  --nav-link: #b4c1bb;
+  --nav-lang: #a3b3ac;
+  --nav-active: #ffffff;
+  /* framed documents — blackened steel frames on a white mat */
+  --mat: #f7f6f3;
+  --frame: #222b28;
+  --frame-grad: linear-gradient(140deg, #3b4945, #19221f 38%, #2e3b37 62%, #121a17);
+  --shadow: rgba(18, 28, 25, .5);
+  --paper: #eeede9;
+  /* photos — crisp high-contrast monochrome */
+  --photo-filter: grayscale(100%) contrast(1.08) brightness(.98);
+  --shade: 16, 26, 23;
+  --lb-bg: rgba(16, 24, 21, .97);
+  /* type */
+  --sans: 'Onest', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --display: 'Unbounded', 'Onest', system-ui, sans-serif;
+  --display-weight: 600;
+  --display-light: 300;
+  --ds: .8;               /* Unbounded is wide: scale giant type down */
+  --track-xl: -.035em;
+  --track-l: -.025em;
+  --track-m: -.015em;
+  --logo-track: .02em;
+  --logo-size: .98rem;
+}

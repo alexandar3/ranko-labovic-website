@@ -1,0 +1,52 @@
+/* Theme "formbureau" — colour palette taken from formbureau.co.uk, with Inter (as in the kostelov theme).
+   Their palette: pale blue-grey ground (#DCE1EA -> #F0F2F6 radial), electric blue #105AFF, deep ultramarine #002295, white.
+   #105AFF is nudged to #0A4FE8 for small text so it passes WCAG AA on the #DCE1EA ground (4.85:1).
+   Switch themes with "theme" in content/site.json (or THEME=formbureau npm run build). */
+:root {
+  /* surfaces — pale blue-grey, like formbureau's radial background */
+  --bg: #dce1ea;
+  --page-bg: radial-gradient(circle at 50% 40%, #f0f2f6 0, #dce1ea 1000px);
+  --panel: #f0f2f6;       /* text cells */
+  --white: #ffffff;
+  --intro-bg: #f7f8fb;
+  --line: #c3cbdb;        /* blue-grey hairlines */
+  /* text — everything in ultramarine, as on formbureau */
+  --ink: #002295;
+  --mut: #3c4c7d;         /* WCAG AA on all light surfaces */
+  --pale: #bccbf6;        /* pale blue first word of giant headings (decorative) */
+  /* accent — electric blue */
+  --accent: #0a4fe8;      /* formbureau #105AFF, AA-safe */
+  --accent-hover: #002295;
+  --accent-lt: #8fb0ff;   /* blue on the dark ultramarine band */
+  --on-accent: #ffffff;
+  /* nav + contact band — deep ultramarine */
+  --dark: #002295;
+  --on-dark: #ffffff;
+  --on-dark-mut: #b9c7f2;
+  --line-dark: rgba(255, 255, 255, .2);
+  --nav-link: #c4d1fa;
+  --nav-lang: #a9bbf2;
+  --nav-active: #ffffff;
+  /* framed documents — thin blue outline on white, like formbureau's "blueblock" boxes */
+  --mat: #ffffff;
+  --frame: #105aff;
+  --frame-w: 1px;
+  --frame-grad: linear-gradient(#105aff, #105aff);
+  --shadow: rgba(0, 34, 149, .18);
+  --paper: #f0f2f6;
+  /* photos */
+  --photo-filter: grayscale(100%) contrast(1.03);
+  --shade: 0, 20, 90;     /* blue-tinted caption / hero gradients */
+  --lb-bg: rgba(0, 22, 98, .97);
+  /* type — Inter, same settings as the kostelov theme */
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --display: var(--sans);
+  --display-weight: 700;
+  --display-light: 400;
+  --ds: 1;
+  --track-xl: -.04em;
+  --track-l: -.03em;
+  --track-m: -.02em;
+  --logo-track: .08em;
+  --logo-size: 1.05rem;
+}

@@ -1,0 +1,48 @@
+/* Theme "kostelov" — the version 2 look: kostelov.com beige / brown / bronze, Inter throughout.
+   Switch themes with "theme" in content/site.json (or THEME=kostelov npm run build). */
+:root {
+  /* surfaces */
+  --bg: #ece6db;          /* page beige */
+  --panel: #f5f0e7;       /* text cells */
+  --white: #ffffff;
+  --intro-bg: #ffffff;    /* intro band behind the giant heading */
+  --line: #dbd3c5;        /* hairlines */
+  /* text */
+  --ink: #2c2925;
+  --mut: #685d51;         /* secondary text (WCAG AA) */
+  --pale: #e3dbcd;        /* pale first word of giant headings (decorative) */
+  /* accent */
+  --accent: #715739;      /* bronze */
+  --accent-hover: #5a452d;
+  --accent-lt: #c9b08e;   /* bronze on dark */
+  --on-accent: #ffffff;
+  /* dark nav + contact band */
+  --dark: #403b35;
+  --on-dark: #f3efe7;
+  --on-dark-mut: #b9b0a2;
+  --line-dark: rgba(255, 255, 255, .14);
+  --nav-link: #bdb5a8;
+  --nav-lang: #b0a796;
+  --nav-active: #ffffff;
+  /* framed documents */
+  --mat: #faf7f1;
+  --frame: #4b3b2c;
+  --frame-grad: linear-gradient(140deg, #6e5640, #3d2f23 35%, #5d4734 60%, #35281e);
+  --shadow: rgba(40, 30, 20, .55);
+  --paper: #f2ebdf;
+  /* photos */
+  --photo-filter: grayscale(100%) contrast(1.02);
+  --shade: 22, 19, 16;    /* rgb of caption / hero gradients */
+  --lb-bg: rgba(28, 25, 22, .97);
+  /* type */
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --display: var(--sans);
+  --display-weight: 700;
+  --display-light: 400;
+  --ds: 1;                /* display size multiplier */
+  --track-xl: -.04em;     /* giant headings */
+  --track-l: -.03em;
+  --track-m: -.02em;
+  --logo-track: .08em;
+  --logo-size: 1.05rem;
+}

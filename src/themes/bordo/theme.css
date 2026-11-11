@@ -1,0 +1,52 @@
+/* Theme "bordo" — burgundy, olive green and beige, Inter throughout.
+   Oxblood burgundy for the nav and contact band and the dark word of the giant headings;
+   deep olive for kickers, links, the submit button and accents; warm parchment beige as the ground.
+   Switch themes with "theme" in content/site.json (or THEME=bordo npm run build). */
+:root {
+  /* surfaces — warm parchment beige */
+  --bg: #ebe3d5;
+  --panel: #f4eee4;
+  --white: #fffdf9;
+  --intro-bg: #faf7f1;
+  --line: #d8ccb8;
+  /* text */
+  --ink: #2e2421;         /* warm near-black */
+  --mut: #6a6052;         /* WCAG AA on all light surfaces */
+  --pale: #d3d2b3;        /* pale olive first word of giant headings (decorative) */
+  /* accent — deep olive */
+  --accent: #56602f;
+  --accent-hover: #3f4722;
+  --accent-lt: #c5c99a;   /* light olive on burgundy */
+  --on-accent: #ffffff;
+  /* nav + contact band — oxblood burgundy */
+  --dark: #5b1a26;
+  --on-dark: #f8efe6;
+  --on-dark-mut: #d6bfbf;
+  --line-dark: rgba(255, 255, 255, .16);
+  --nav-link: #e2cfcf;
+  --nav-lang: #d2b9b9;
+  --nav-active: #ffffff;
+  /* framed documents — burgundy lacquer frames on an ivory mat */
+  --mat: #fbf8f2;
+  --frame: #4a1520;
+  --frame-grad: linear-gradient(140deg, #7a2a36, #45121c 35%, #6a2230 60%, #3a0e17);
+  --shadow: rgba(60, 20, 28, .45);
+  --paper: #f1e9dc;
+  /* photos */
+  --photo-filter: grayscale(100%) contrast(1.02);
+  --shade: 40, 14, 20;    /* burgundy-tinted caption / hero gradients */
+  --lb-bg: rgba(36, 12, 17, .97);
+  /* type — Inter, same settings as the kostelov theme */
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --display: var(--sans);
+  --display-weight: 700;
+  --display-light: 400;
+  --ds: 1;
+  --track-xl: -.04em;
+  --track-l: -.03em;
+  --track-m: -.02em;
+  --logo-track: .08em;
+  --logo-size: 1.05rem;
+}
+/* the dark word of giant headings in burgundy */
+.intro h1 .dk { color: var(--dark); }

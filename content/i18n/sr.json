@@ -1,0 +1,486 @@
+{
+  "_readme": "Serbian (Latin) is the default language and uses the original text from rankolabovic.com verbatim (see content/source/). Edit wording here, then run `npm run build`.",
+  "lang": "sr",
+  "htmlLang": "sr-Latn",
+  "hreflang": "sr-Latn",
+  "ogLocale": "sr_RS",
+  "intlLocale": "sr-Latn-RS",
+  "label": "SR",
+  "languageName": "Srpski",
+  "paths": {
+    "home": "/",
+    "method": "/metod/",
+    "credentials": "/kvalifikacije/",
+    "newsList": "/novosti/",
+    "projects": "/projekti/",
+    "services": "/usluge/",
+    "contact": "/vas-projekat/",
+    "project": "/projekat/",
+    "news": "/novosti/",
+    "company": "/podaci-o-firmi/",
+    "privacy": "/politika-privatnosti/"
+  },
+  "meta": {
+    "siteName": "Ranko Labović — arhitekta",
+    "homeTitle": "Ranko Labović — arhitekta | Vinex Projekt, Beograd",
+    "homeDescription": "Ranko Labović, diplomirani inženjer arhitekture, i Vinex Projekt d.o.o. iz Beograda: projektovanje, urbanizam i stručni nadzor u Srbiji i regionu.",
+    "methodTitle": "Metod rada | Ranko Labović, arhitekta",
+    "methodDescription": "Šest principa po kojima Ranko Labović i Vinex Projekt projektuju: preciznost linije, prirodni materijali, svetlost i proporcija, mesto, čovek i trajnost.",
+    "credentialsTitle": "Kvalifikacije i licence | Ranko Labović, arhitekta",
+    "credentialsDescription": "Licence Inženjerske komore Srbije: odgovorni urbanista, odgovorni projektant i odgovorni izvođač radova — Ranko Labović, dipl. inž. arh.",
+    "newsListTitle": "Novosti | Ranko Labović, arhitekta",
+    "newsListDescription": "Tekstovi iz projektantske prakse biroa Vinex Projekt i iz sveta arhitekture, urbanizma i građevinarstva.",
+    "projectsTitle": "Projekti | Ranko Labović, arhitekta",
+    "projectsDescription": "Odabrani projekti: Espanjola u Herceg Novom, stambeno-poslovna zgrada Politova 12 u Beogradu i odmaralište u Sočiju.",
+    "servicesTitle": "Usluge | Vinex Projekt d.o.o., Beograd",
+    "servicesDescription": "Projektovanje visokogradnje i niskogradnje, urbanizam, stručni nadzor, revizija dokumentacije, konsalting i veštačenja.",
+    "contactTitle": "Vaš projekat — kontakt | Vinex Projekt d.o.o.",
+    "contactDescription": "Kontaktirajte arhitektu Ranka Labovića i Vinex Projekt d.o.o., Palmotićeva 19, Beograd. Besplatne početne konsultacije.",
+    "projectTitle": "{name} — {location} | Ranko Labović, arhitekta",
+    "newsTitle": "{title} | Ranko Labović, arhitekta",
+    "notFoundTitle": "Stranica nije pronađena | Ranko Labović",
+    "companyTitle": "Podaci o firmi | Vinex Projekt d.o.o.",
+    "companyDescription": "Zvanični podaci o privrednom društvu Vinex Projekt d.o.o. Beograd: PIB, matični broj, sedište i delatnost.",
+    "privacyTitle": "Politika privatnosti | Vinex Projekt d.o.o.",
+    "privacyDescription": "Politika privatnosti sajta rankolabovic.com — kako Vinex Projekt d.o.o. iz Beograda postupa sa ličnim podacima poslatim preko sajta."
+  },
+  "brand": {
+    "name": "Ranko Labović",
+    "role": "arhitekta"
+  },
+  "nav": {
+    "method": "Metod",
+    "credentials": "Kvalifikacije",
+    "newsList": "Novosti",
+    "projects": "Projekti",
+    "services": "Usluge",
+    "contact": "Vaš projekat",
+    "menu": "Meni",
+    "openMenu": "Otvori meni",
+    "closeMenu": "Zatvori meni",
+    "skip": "Preskoči na sadržaj",
+    "language": "Izbor jezika",
+    "home": "Početna",
+    "more": "Više"
+  },
+  "pages": {
+    "home": {
+      "kicker": "Arhitektura · Urbanizam · Nadzor izgradnje",
+      "pale": "Ranko",
+      "dark": "Labović"
+    },
+    "method": {
+      "kicker": "Pristup projektovanju",
+      "pale": "Metod",
+      "dark": "rada"
+    },
+    "credentials": {
+      "kicker": "Obrazovanje · licence · članstva",
+      "pale": "",
+      "dark": "Kvalifikacije"
+    },
+    "newsList": {
+      "kicker": "Iz naše prakse i sveta arhitekture",
+      "pale": "",
+      "dark": "Novosti"
+    },
+    "projects": {
+      "kicker": "Reference",
+      "pale": "Odabrani",
+      "dark": "projekti"
+    },
+    "services": {
+      "kicker": "Šta radimo",
+      "pale": "Naše",
+      "dark": "usluge"
+    },
+    "contact": {
+      "kicker": "Opišite nam šta planirate",
+      "pale": "Vaš",
+      "dark": "projekat"
+    }
+  },
+  "home": {
+    "portraitAlt": "Ranko Labović, arhitekta i osnivač Vinex Projekta, u svojoj kancelariji",
+    "bioTitle": "Bio",
+    "bio": [
+      "Diplomirani inženjer arhitekture. Osnivač i direktor biroa Vinex Projekt d.o.o. iz Beograda, koji od 2008. godine pruža usluge planiranja, projektovanja i nadzora izgradnje.",
+      "Član Inženjerske komore Srbije sa licencama odgovornog urbaniste, odgovornog projektanta arhitektonskih projekata i odgovornog izvođača radova visokogradnje.",
+      "Projekti biroa obuhvataju stambene, stambeno-poslovne i turističke objekte u Srbiji, Crnoj Gori i Rusiji — od zgrade u ulici Politova u Beogradu do odmarališta Centralne banke Ruske Federacije u Sočiju.",
+      "„Arhitekta treba da bude na putu rešavanja osnovnih egzistencijalnih potreba čoveka, kao što je smeštajni prostor.”"
+    ],
+    "chronoTitle": "Hronologija",
+    "chrono": [
+      [
+        "2020",
+        "Politova 12 — Južni Bulevar, stambeno-poslovna zgrada, Beograd"
+      ],
+      [
+        "2018",
+        "Espanjola, stambeni objekat uz Tvrđavu Španjola, Herceg Novi"
+      ],
+      [
+        "2015",
+        "Odmaralište u Sočiju za Centralnu banku Ruske Federacije"
+      ],
+      [
+        "2008",
+        "Osnivanje biroa Vinex Projekt d.o.o., Beograd"
+      ],
+      [
+        "IKS",
+        "Licenca 400 9189 05 — odgovorni izvođač radova visokogradnje"
+      ],
+      [
+        "IKS",
+        "Licenca 300 Ц292 05 — odgovorni projektant arhitektonskih projekata"
+      ],
+      [
+        "IKS",
+        "Licenca 200 0888 06 — odgovorni urbanista"
+      ]
+    ],
+    "serviceGroups": [
+      "Projektovanje",
+      "Izgradnja i upravljanje",
+      "Ekspertize i savetovanje"
+    ]
+  },
+  "method": {
+    "items": [
+      {
+        "title": "Preciznost linije",
+        "text": "Svaki projekat počinje linijom i od nje zavisi sve što sledi. Verujemo u preciznost svake linije — u crtež koji je jasan izvođaču, investitoru i vremenu. Tačan detalj nije pedanterija, već poštovanje prema onima koji će zgradu graditi i u njoj živeti. Zato projekat razvijamo od idejnog rešenja do izvedbenog detalja bez prečica, proveravajući svaku meru u odnosu na konstrukciju, instalacije i propise. Kada je linija tačna, objekat se gradi mirno, bez improvizacije na gradilištu, a gotov prostor deluje sabrano i neusiljeno."
+      },
+      {
+        "title": "Toplina prirodnih materijala",
+        "text": "Kamen, drvo, malter i keramika nose ono što nijedna imitacija ne može: težinu, toplinu i sposobnost da lepo stare. Prirodne materijale biramo zato što prostoru daju mir i autoritet, a ne zbog efekta na fotografiji. Svaki materijal ima svoje mesto i svoju logiku — kamen tamo gde se objekat oslanja na tlo i istoriju, drvo i keramika tamo gde se živi. Kombinujemo ih umereno, tako da se dopunjuju, a ne nadmeću. Materijal koji je iskreno upotrebljen ne traži dodatnu dekoraciju; on sam postaje ukras."
+      },
+      {
+        "title": "Svetlost i proporcija",
+        "text": "Arhitektura je tihi dijalog između svetlosti, teksture i proporcije. Svetlost otkriva materijal, proporcija mu daje meru, a tekstura ga čini opipljivim. Zato prostor ne crtamo kao zbir prostorija, već kao niz odnosa: visine i širine, punog i praznog, senke i sjaja. Dobro proporcionisan prostor deluje smireno i kada je skroman po površini. Orijentaciju, otvore i dubinu prostorija postavljamo tako da dnevna svetlost bude glavni materijal enterijera — onaj koji se menja tokom dana, a ništa ne košta."
+      },
+      {
+        "title": "Dijalog sa mestom",
+        "text": "Svaki projekat je unikatno istraživanje konteksta i materijala. Zgrada nikada ne stoji sama: ona odgovara na teren, pogled, susedne objekte i istoriju mesta. U Herceg Novom to je značilo da objekat stilski komunicira sa Tvrđavom Španjola i da pogled ka moru ostane potpuno otvoren. U Beogradu, u ulici Politova, to je značilo novu disciplinu fasade — ravne linije i promišljen spoj materijala u gustom gradskom tkivu. Mesto ne posmatramo kao ograničenje, već kao prvi i najvažniji deo projektnog zadatka."
+      },
+      {
+        "title": "Prostor po meri čoveka",
+        "text": "Arhitekta treba da bude na putu rešavanja osnovnih egzistencijalnih potreba čoveka, kao što je smeštajni prostor. Zato projekat ne počinje formom, već razgovorom: kako će ljudi u prostoru živeti, raditi, odmarati se i okupljati. Naučili smo da razlikujemo ono što je investitoru zaista potrebno od onoga što mu nije potrebno — i da to otvoreno kažemo. Klijent uživa poštovanje, a njegovi stvarni zahtevi postaju osnova svake odluke, od rasporeda prostorija do poslednjeg detalja. Tek kada je funkcija jasna, forma može da bude slobodna."
+      },
+      {
+        "title": "Otpornost na vreme",
+        "text": "Težimo lepoti prostora koja odoleva zubu vremena. To nije stil, već odgovornost: zgrada nadživljava modu, investitora, a često i samog arhitektu. Zato biramo trajne materijale, jednostavne konstruktivne sklopove i detalje koji se mogu održavati. Kroz stručni nadzor pratimo da se projekat izvede onako kako je zamišljen, jer i najbolje rešenje gubi vrednost ako je loše izgrađeno. Trajnost i estetska čistota za nas su ista stvar — objekat koji lepo stari jeste objekat koji je dobro projektovan."
+      }
+    ]
+  },
+  "credentials": {
+    "open": "Uvećaj",
+    "placeholderTitle": "Diploma uskoro",
+    "placeholderSub": "Diploma coming soon",
+    "items": [
+      {
+        "label": "Urbanista",
+        "big": "200",
+        "status": "Odgovorni urbanista",
+        "title": "Inženjerska komora Srbije",
+        "meta": "Licenca br. 200 0888 06 — izrada urbanističkih planova i projekata.",
+        "caption": "Licenca broj 200 0888 06 — odgovorni urbanista za izradu urbanističkih planova i projekata",
+        "alt": "Licenca broj 200 0888 06 — odgovorni urbanista za izradu urbanističkih planova i projekata, Ranko Labović (Inženjerska komora Srbije)"
+      },
+      {
+        "label": "Projektant",
+        "big": "300",
+        "status": "Odgovorni projektant",
+        "title": "Inženjerska komora Srbije",
+        "meta": "Licenca br. 300 Ц292 05 — arhitektonski projekti, uređenje slobodnih prostora i unutrašnje instalacije vodovoda i kanalizacije.",
+        "caption": "Licenca broj 300 Ц292 05 — odgovorni projektant arhitektonskih projekata, uređenja slobodnih prostora i unutrašnjih instalacija vodovoda i kanalizacije",
+        "alt": "Licenca broj 300 Ц292 05 — odgovorni projektant arhitektonskih projekata i instalacija vodovoda i kanalizacije, Ranko Labović (Inženjerska komora Srbije)"
+      },
+      {
+        "label": "Izvođač",
+        "big": "400",
+        "status": "Odgovorni izvođač radova",
+        "title": "Inženjerska komora Srbije",
+        "meta": "Licenca br. 400 9189 05 — radovi visokogradnje i instalacije vodovoda i kanalizacije.",
+        "caption": "Licenca broj 400 9189 05 — odgovorni izvođač radova visokogradnje i instalacija vodovoda i kanalizacije",
+        "alt": "Licenca broj 400 9189 05 — odgovorni izvođač radova visokogradnje i instalacija vodovoda i kanalizacije, Ranko Labović (Inženjerska komora Srbije)"
+      }
+    ]
+  },
+  "services": {
+    "cta": "Potrebna vam je naša usluga?",
+    "ctaText": "Kontaktirajte nas i dogovorimo početne konsultacije.",
+    "ctaLink": "Stupite u kontakt",
+    "items": [
+      {
+        "title": "Izrada građevinskih projekata",
+        "text": "Niskogradnja i visokogradnja — od idejnog rešenja do izvedbenog projekta, u skladu sa važećim propisima i standardima."
+      },
+      {
+        "title": "Nadzor nad izgradnjom građevinskih objekata",
+        "text": "Stručni nadzor koji osigurava kvalitet izvedbe u svakoj fazi gradnje, uz poštovanje projektne dokumentacije i rokova."
+      },
+      {
+        "title": "Urbanistički projekti",
+        "text": "Planiranje i uređenje prostora u skladu sa urbanističkim propisima, regulacionim planovima i potrebama zajednice."
+      },
+      {
+        "title": "Izrada projekata regulacije vodotokova",
+        "text": "Projekti zaštite od poplava, regulacije reka i vodotokova, u saradnji sa nadležnim institucijama."
+      },
+      {
+        "title": "Izrada kompleksnih zadataka",
+        "text": "Rešavanje zahtevnih projektantskih problema koji zahtevaju interdisciplinarni pristup i visok stepen tehničke stručnosti."
+      },
+      {
+        "title": "Konsalting",
+        "text": "Stručni saveti i podrška investitorima u svim fazama projekta — od odabira lokacije do primopredaje objekta."
+      },
+      {
+        "title": "Pribavljanje dokumentacije",
+        "text": "Asistencija pri prikupljanju svih neophodnih dozvola, saglasnosti i tehničke dokumentacije od nadležnih organa."
+      },
+      {
+        "title": "Revizija projektne dokumentacije",
+        "text": "Nezavisna stručna provera projektnih rešenja, sa ciljem identifikacije i otklanjanja potencijalnih grešaka pre početka gradnje."
+      },
+      {
+        "title": "Upravljanje projektima",
+        "text": "Koordinacija svih učesnika u procesu projektovanja i gradnje za pravovremenu i budžetski preciznu realizaciju."
+      },
+      {
+        "title": "Tumačenje propisa",
+        "text": "Stručno tumačenje građevinskih propisa, standarda i normativa radi pravilne primene u projektovanju i gradnji."
+      },
+      {
+        "title": "Veštačenja",
+        "text": "Izrada stručnih nalaza i mišljenja za potrebe sudskih postupaka, osiguravajućih kompanija i investitora."
+      }
+    ]
+  },
+  "projects": {
+    "kicker": "Reference",
+    "title": "Odabrani projekti",
+    "view": "Pogledaj projekat",
+    "about": "O projektu",
+    "gallery": "Galerija",
+    "photos": "fotografija",
+    "prev": "Prethodni",
+    "next": "Sledeći",
+    "all": "Svi projekti",
+    "todo": "Podatak u pripremi",
+    "facts": {
+      "location": "Lokacija",
+      "type": "Tip",
+      "year": "Godina",
+      "area": "Površina",
+      "status": "Status",
+      "client": "Investitor"
+    },
+    "rooms": {
+      "exteriorPool": "eksterijer sa bazenom",
+      "facade": "fasada",
+      "terraceSea": "terasa s pogledom na more",
+      "balconySea": "balkon s pogledom na more",
+      "colonnade": "kolonada i ulaz",
+      "visualisation": "vizualizacija",
+      "vestibule": "vestibil",
+      "vestibuleDetail": "vestibil, detalj",
+      "living": "dnevna soba",
+      "livingPart": "deo dnevne sobe",
+      "kitchenBar": "kuhinja sa barom",
+      "dining": "trpezarija",
+      "bedroom": "spavaća soba",
+      "bathroom": "kupatilo",
+      "building": "stambeno-poslovna zgrada"
+    },
+    "items": {
+      "espanjola": {
+        "name": "Espanjola",
+        "location": "Herceg Novi",
+        "type": "Stambeni objekat",
+        "description": [
+          "Građevinski i pre toga, projektantski poduhvat koji stilski komunicira sa Tvrđavom Španijola, a neposredno se nalazi uz ovaj istorijski fortifikacioni kompleks. Objekat je organizaciono i sadržajno formiran na lokaciji koja dominira okolinom uz mogućnost da pogled prema moru nije ni sa čim zaklonjen, da je otvoren i predstavlja posebnu vrednost ove lokacije."
+        ]
+      },
+      "politova-12-juzni-bulevar": {
+        "name": "Politova 12 — Južni Bulevar",
+        "location": "Beograd",
+        "type": "Stambeno-poslovni objekat",
+        "description": [
+          "Stambeno-poslovna zgrada u ul. Politova br. 12, predstavlja koncept, definisan projektom, koji ravnim linijama i primenom različitih materijala kompoziciono postavlja potpuno novi način razmišljanja o spoljašnjim fasadnim površinama i estetici prvostepene plastike."
+        ]
+      },
+      "odmaraliste-u-sociju": {
+        "name": "Odmaralište u Sočiju",
+        "location": "Soči, Rusija",
+        "type": "Turistički objekat",
+        "client": "Centralna banka Ruske Federacije",
+        "description": [
+          "Projekat Odmarališta u Sočiju je finansirala Centralna banka Ruske Federacije, a projektni zadatak je uslovio i podrazumevao rešenje koje će omogućiti većem broju posetilaca boravak, pogled na obalu Crnog mora i društveni život u poslepodnevnom i večernjem periodu."
+        ]
+      }
+    },
+    "specTitle": "O projektu",
+    "descTitle": "Opis",
+    "practice": "Biro",
+    "practiceValue": "Vinex Projekt"
+  },
+  "news": {
+    "readMore": "Pročitaj više",
+    "back": "Sve novosti",
+    "items": {
+      "niskogradnja-i-visokogradnja-razlike-i-izazovi": {
+        "title": "Niskogradnja i visokogradnja: ključne razlike i izazovi",
+        "excerpt": "Dok gradovi delom sveta rastu i menjaju se, građevinski sektor suočava se s izazovom kako najbolje iskoristiti dostupne resurse i prostor.",
+        "body": "<p>Dok gradovi delom sveta rastu i menjaju se, građevinski sektor suočava se s izazovom kako najbolje iskoristiti dostupne resurse i prostor. Dva glavna pristupa građevinskoj industriji su niskogradnja i visokogradnja, svaki sa svojim jedinstvenim karakteristikama, prednostima i izazovima. U ovom članku prikazaćemo ključne razlike između ova dva pristupa, te kako oni oblikuju moderne gradove.</p><h2>Niskogradnja: spoj funkcionalnosti i pristupačnosti</h2><p>Niskogradnja se odnosi na građevinske projekte koji su relativno niži i obično se sastoje od jednostavnijih struktura. Ova vrsta izgradnje često uključuje jednospratne ili dvospratne zgrade, kuće, stambene komplekse i manje poslovne prostore. Glavne prednosti niskogradnje uključuju:</p><p><strong>Pristupačnost:</strong> Niskogradnja često zahteva manje resursa i finansijskih sredstava u poređenju sa visokogradnjom, što je čini pristupačnijom širem broju ljudi.</p><p><strong>Fleksibilnost:</strong> Manje strukture često su fleksibilnije za prilagođavanje različitim potrebama i promenama u korisničkim zahtevima.</p><p>Međutim, niskogradnja može nositi i određene izazove, poput ograničenja u iskorišćavanju prostora i potencijalnih poteškoća u maksimiziranju gustoće stanovanja ili komercijalnog prostora.</p><h2>Visokogradnja: iznad granica s neograničenim potencijalom</h2><p>Suprotno niskogradnji, visokogradnja obuhvata izgradnju visokih zgrada koje dosežu u nebo. Neboderi, stambeni tornjevi, uredski kompleksi i trgovački centri deo su ovog spektra građevinskih projekata. Ključne prednosti visokogradnje uključuju:</p><p><strong>Maksimiziranje prostora:</strong> Visoke zgrade omogućuju maksimalno iskorišćavanje ograničenog gradskog prostora, čime se omogućava veći broj stanovnika ili poslovnih aktivnosti u određenoj površini.</p><p><strong>Ikonska arhitektura:</strong> Neboderi često postaju simboli gradova i pružaju priliku za arhitektonsku kreativnost i inovacije.</p><p>Uprkos svojim prednostima, visokogradnja može biti skuplja i zahtevnija za izgradnju, uz izazove kao što su statički proračuni, sigurnost i logistika.</p><h2>Budućnost građevinskih trendova: harmonizacija niskogradnje i visokogradnje</h2><p>U savremenom urbanom planiranju sve se češće kombinuju elementi niskogradnje i visokogradnje kako bi se postigla optimalna ravnoteža između funkcionalnosti, održivosti i estetike. Projekti poput mešovitih stambeno-poslovnih kompleksa, urbanih zelenih prostora i vertikalnih farmi predstavljaju primere inovativnih pristupa koji ujedinjuju najbolje od oba sveta.</p><p>Na kraju, niskogradnja i visokogradnja predstavljaju dva ključna aspekta građevinske industrije, svaki sa svojim jedinstvenim karakteristikama i prednostima. Harmonizacija ovih pristupa može pomoći u stvaranju uravnoteženijih i održivijih gradova za buduće generacije.</p>"
+      },
+      "urbani-pejzazi-kako-projektovanje-oblikuje-nasa-mesta": {
+        "title": "Urbani pejzaži: kako projektovanje oblikuje naša mesta",
+        "excerpt": "Urbani pejzaži predstavljaju živopisnu mrežu gradova koja odražava naše kolektivno nasleđe, kulturni identitet i društvene vrednosti.",
+        "body": "<p>Urbani pejzaži predstavljaju živopisnu mrežu gradova koja odražava naše kolektivno nasleđe, kulturni identitet i društvene vrednosti. Projektovanje urbanih prostora igra ključnu ulogu u oblikovanju naših gradova, utičući na način na koji živimo, radimo i komuniciramo. Ovo je priča o susretu između čoveka, arhitekture i prostora, koja se neprekidno razvija kako bi zadovoljila potrebe savremenog društva.</p><h2>Urbani pejzaži: šta čini grad?</h2><p>Gradovi su više od samo zgrada i ulica. Oni su živi organizmi koji se neprestano razvijaju i prilagođavaju. Urbani pejzaži obuhvataju širok spektar elemenata kao što su javni prostori, zelenilo, infrastruktura, saobraćajne mreže i arhitektonski dizajn. Sve ovo zajedno čini „dušu” grada.</p><h2>Projektovanje u gradskom kontekstu: balansiranje forme i funkcije</h2><p>Projektovanje urbanih prostora zahteva balansiranje između estetike i funkcionalnosti. Dok arhitektura dodaje lepotu gradu, infrastruktura i urbanističko planiranje osiguravaju da grad bude funkcionalan i održiv. Ovaj sinergijski pristup doprinosi stvaranju gradova koji su privlačni za život i rad.</p><h2>Održivost u urbanoj sredini: zeleni gradovi budućnosti</h2><p>Sve veći naglasak se stavlja na održivost u urbanom planiranju i projektovanju. Zeleni prostori, obnovljivi izvori energije, efikasno korišćenje resursa i reciklaža su ključni elementi održivih gradova. Projektovanje sa ciljem smanjenja ekološkog otiska grada postaje imperativ u svetlu klimatskih promena i brzog urbanog rasta.</p><h2>Digitalna transformacija i urbanizam: pametni gradovi</h2><p>Razvoj tehnologije sve više utiče na način na koji projektujemo i upravljamo gradovima. Pametni gradovi koriste IoT (Internet stvari) tehnologiju, podatke i digitalne platforme kako bi poboljšali efikasnost infrastrukture, saobraćajnog sistema, javnih usluga i komunikacije. Ova digitalna transformacija obećava da će gradovi postati efikasniji, ekonomičniji i udobniji za svoje stanovnike.</p><p>Urbani pejzaži su živi entiteti koji neprestano evoluiraju. Projektovanje i urbanizam igraju ključnu ulogu u oblikovanju gradova koji su inspirativni, održivi i inkluzivni. Kroz pažljivo planiranje, inovativni dizajn i inkluzivne pristupe, gradovi mogu postati ne samo mesta za život, već i izvori inspiracije i napretka za celo društvo.</p>"
+      },
+      "arhitektura-kao-ogledalo-drustva": {
+        "title": "Arhitektura kao ogledalo društva: kako gradimo identitet kroz građevine",
+        "excerpt": "Arhitektura je više od samo građevinskih konstrukcija — ona je ogledalo društva, koje odražava njegove vrednosti, prioritete i identitet.",
+        "body": "<p>Arhitektura je više od samo građevinskih konstrukcija — ona je ogledalo društva, koje odražava njegove vrednosti, prioritete i identitet. Kroz istoriju, građevine su bile svedoci kulturnih, političkih i tehnoloških promena, ostavljajući trajni pečat na urbani pejzaž i kolektivnu svest ljudi. Zbog toga želimo da istražimo na koji način arhitektura oblikuje našu percepciju sveta i utiče na način na koji živimo i interagujemo sa okolinom.</p><h2>Arhitektura kao kulturno nasleđe</h2><p>Građevine su često simboli kulture i tradicije, predstavljajući testament prošlim vremenima i kulturnom identitetu zajednice. Kroz arhitektonski stil, materijale i dekoraciju, građevine čuvaju priče i vrednosti koje se prenose s generacije na generaciju.</p><h2>Arhitektura kao ekspresija identiteta</h2><p>Arhitektura je moćan izraz identiteta i aspiracija društva. Ikonografski građevinski objekti, poput Ajfelovog tornja u Parizu ili Burdž Kalife u Dubaiju, postaju simboli nacionalnog ponosa i prepoznatljivosti širom sveta.</p><h2>Arhitektura kao reakcija na okolinu</h2><p>Arhitekte često uzimaju u obzir prirodnu i društvenu okolinu prilikom projektovanja građevina. Lokalni materijali, klimatski uslovi i kulturne tradicije utiču na dizajn, stvarajući građevine koje su funkcionalne, estetski prihvatljive i ekološki održive.</p><h2>Arhitektura kao inovacija</h2><p>Arhitektura je teren za inovaciju i eksperimentisanje. Napredne tehnologije, poput digitalnog projektovanja, 3D štampe i pasivne energetske arhitekture, omogućavaju arhitektima da stvaraju revolucionarne objekte koji redefinišu granice mogućeg.</p><h2>Arhitektura kao inspiracija za budućnost</h2><p>Građevine ne samo da odražavaju trenutno stanje društva, već i inspirišu buduće generacije. Inovativni koncepti, poput vertikalnih šuma, pametnih gradova i održivih naselja, postavljaju standarde za gradnju budućnosti koja je ekološki osvešćena, inkluzivna i tehnološki napredna.</p><p>Kroz svoju raznolikost i kompleksnost, arhitektura ostaje ključni element u oblikovanju naših gradova i identiteta. Kroz inovativne ideje, kulturno nasleđe i društvenu angažovanost, arhitektura ostaje neiscrpan izvor inspiracije i promene u našem svetu.</p>"
+      },
+      "dobrodosli-na-novi-sajt": {
+        "title": "Dobrodošli na zvanični sajt Vinex Projekt",
+        "excerpt": "Sa zadovoljstvom predstavljamo novi zvanični sajt Vinex Projekt d.o.o. — upoznajte naš rad, tim i filozofiju.",
+        "body": "<p>Dragi klijenti i partneri, sa zadovoljstvom vam predstavljamo naš novi sajt, nastao u uspešnoj saradnji sa <strong><a href=\"https://informatickicentar.com\" target=\"_blank\" rel=\"noopener\">Centrom za Informatičku Podršku</a></strong>, a sa ciljem da vam maksimalno približimo rad i filozofiju kompanije <strong>Vinex Projekt d.o.o.</strong></p><p>Iza svakog našeg projekta stoji posvećenost rešavanju osnovnih egzistencijalnih potreba čoveka kroz prostor, ali i pristup koji uvek uključuje pažljivo promišljanje. Verujemo da arhitektura mora biti u službi funkcionalnosti i stvarnih potreba onih koji u tom prostoru borave. Na stranici <strong><a href=\"/#about\">o nama</a></strong> možete bliže upoznati naš tim visokokvalifikovanih inženjera i arhitekata, predvođenih Rankom Labovićem.</p><p>Naša specijalnost su sveobuhvatne <strong><a href=\"/#services\">usluge u oblasti planiranja, projektovanja i nadzora</a></strong> izgradnje. Težimo inovacijama i kvalitetu, a uspešno realizovani objekti i zadovoljni klijenti su naš najveći ponos – naše dosadašnje radove i reference možete pogledati u sekciji <strong><a href=\"/#projects\">projekti</a></strong>.</p><p>Pratite naše <strong><a href=\"/#news\">novosti</a></strong> kako biste uvek bili u toku sa najnovijim trendovima u građevinarstvu i arhitekturi. Ukoliko želite da zajednički pokrenemo vaš sledeći projekat i pretvorimo ideju u održivu stvarnost, slobodno nas <strong><a href=\"/#contact\">kontaktirajte</a></strong>.</p>"
+      }
+    }
+  },
+  "contactPage": {
+    "cards": [
+      {
+        "title": "Arhitektura",
+        "text": "Projektovanje objekata visokogradnje i niskogradnje — od idejnog rešenja do izvedbenog projekta."
+      },
+      {
+        "title": "Urbanizam",
+        "text": "Urbanistički projekti, planiranje i uređenje prostora u skladu sa regulativom i potrebama zajednice."
+      },
+      {
+        "title": "Nadzor i konsalting",
+        "text": "Stručni nadzor, upravljanje projektima, revizija projektne dokumentacije i veštačenja."
+      }
+    ],
+    "officeTitle": "Kancelarija"
+  },
+  "contact": {
+    "visit": "Kancelarija kompanije Vinex Projekt d.o.o. nalazi se u centru Beograda, na Starom gradu. Dobrodošli ste da nas posetite uz prethodnu najavu.",
+    "addressLabel": "Adresa",
+    "address": "Palmotićeva 19, 11000 Beograd (Stari grad)",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-pošta",
+    "followLabel": "Pratite nas",
+    "mapTitle": "Mapa: Vinex Projekt, Palmotićeva 19, Beograd",
+    "mapLink": "Otvori u Google mapama",
+    "form": {
+      "title": "Pošaljite poruku",
+      "name": "Ime i prezime",
+      "email": "E-pošta",
+      "message": "Poruka",
+      "required": "obavezno",
+      "submit": "Pošalji",
+      "sending": "Slanje…",
+      "errName": "Unesite ime i prezime.",
+      "errEmail": "Unesite ispravnu adresu e-pošte.",
+      "errMessage": "Napišite poruku (najmanje 10 karaktera).",
+      "errSummary": "Proverite označena polja.",
+      "success": "Hvala! Vaša poruka je poslata. Javićemo Vam se u najkraćem roku.",
+      "failure": "Poruka nije poslata. Pokušajte ponovo ili nam pišite na {email}.",
+      "notConnected": "Forma još nije povezana. Molimo pišite nam direktno na {email} ili pozovite {phone}."
+    }
+  },
+  "band": {
+    "kicker": "Kontaktirajte nas za besplatne konsultacije.",
+    "line1": "Stupite",
+    "line2": "u kontakt",
+    "copy": "Arhitektura i projektovanje"
+  },
+  "footer": {
+    "tagline": "Arhitektura · Projektovanje · Nadzor izgradnje",
+    "navTitle": "Navigacija",
+    "contactTitle": "Kontakt",
+    "companyTitle": "Kompanija",
+    "pib": "PIB",
+    "mb": "Matični broj",
+    "companyLink": "Podaci o firmi",
+    "privacyLink": "Politika privatnosti",
+    "rights": "Sva prava zadržana.",
+    "backToTop": "Na vrh"
+  },
+  "companyPage": {
+    "kicker": "Pravne informacije",
+    "title": "Podaci o firmi",
+    "intro": "Zvanični podaci o privrednom društvu Vinex Projekt d.o.o.",
+    "rows": [
+      [
+        "Poslovno ime",
+        "VINEX-PROJEKT d.o.o. Beograd (Stari grad)"
+      ],
+      [
+        "PIB",
+        "105407765"
+      ],
+      [
+        "Matični broj",
+        "20370998"
+      ],
+      [
+        "Pravna forma",
+        "Društvo sa ograničenom odgovornošću (d.o.o.)"
+      ],
+      [
+        "Sedište",
+        "Palmotićeva 19, 11000 Beograd (Stari grad), Srbija"
+      ],
+      [
+        "Datum osnivanja",
+        "14.01.2008."
+      ],
+      [
+        "Pretežna delatnost",
+        "4110 — Razrada građevinskih projekata"
+      ],
+      [
+        "Direktor / zastupnik",
+        "Ranko Labović"
+      ],
+      [
+        "Vlasnik",
+        "Ranko Labović (100%)"
+      ],
+      [
+        "Veličina",
+        "Mikro pravno lice"
+      ],
+      [
+        "Status",
+        "Aktivan"
+      ]
+    ],
+    "source": "Izvor: javni registar privrednih subjekata Republike Srbije."
+  },
+  "privacyPage": {
+    "kicker": "Pravna napomena",
+    "title": "Politika privatnosti",
+    "body": "<p>Stranica u izradi.</p>"
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "text": "Stranica koju tražite ne postoji ili je premeštena.",
+    "back": "Nazad na početnu"
+  },
+  "lightbox": {
+    "label": "Pregled fotografija",
+    "close": "Zatvori",
+    "prev": "Prethodna fotografija",
+    "next": "Sledeća fotografija",
+    "of": "od"
+  }
+}

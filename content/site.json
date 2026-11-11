@@ -1,0 +1,290 @@
+{
+  "_readme": "Language-neutral data. All visible wording lives in content/i18n/<lang>.json. Image values are file names inside assets/images/originals/ (or diplomas/ for credentials). See README.md.",
+  "siteUrl": "https://rankolabovic.com",
+  "defaultLang": "sr",
+  "languages": [
+    "sr",
+    "en",
+    "ru"
+  ],
+  "theme": "bordo",
+  "_theme": "Visual theme (colours + fonts) from src/themes/<name>/. Available: \"bordo\" (burgundy / olive / beige, Inter), \"formbureau\" (formbureau.co.uk blues, Inter), \"kostelov\" (beige/bronze, Inter — version 2) and \"terracotta\" (concrete/copper/terracotta, Unbounded + Onest). Change this word and rebuild to switch.",
+  "showTodos": true,
+  "_showTodos": "true = unknown facts are shown as a visible TODO tag (for review). Set to false before launch to show a dash instead.",
+  "formEndpoint": "",
+  "_formEndpoint": "TODO: paste a form backend URL here (e.g. https://formspree.io/f/xxxx or a Netlify/Basin/Getform endpoint). While empty, the form validates and then shows a message asking visitors to email instead.",
+  "person": {
+    "name": "Ranko Labović",
+    "nameRu": "Ранко Лабович"
+  },
+  "company": {
+    "brand": "Vinex Projekt",
+    "legalName": "VINEX-PROJEKT d.o.o. Beograd (Stari grad)",
+    "shortLegalName": "Vinex Projekt d.o.o.",
+    "pib": "105407765",
+    "mb": "20370998",
+    "founded": "2008-01-14",
+    "activityCode": "4110"
+  },
+  "contact": {
+    "street": "Palmotićeva 19",
+    "postalCode": "11000",
+    "city": "Beograd",
+    "district": "Stari grad",
+    "countryCode": "RS",
+    "phoneDisplay": "011 6555 520",
+    "phoneIntl": "+381 11 6555 520",
+    "phoneHref": "+381116555520",
+    "email": "info@rankolabovic.com",
+    "mapQuery": "Palmotićeva 19, Beograd"
+  },
+  "social": {
+    "instagram": "https://instagram.com/ranko.labovic",
+    "facebook": "https://www.facebook.com/profile.php?id=61580058727780"
+  },
+  "images": {
+    "hero": "ranko-labovic-vineks-projekt-arhitektura-espanjola-terasa-pogled-more-26-09.webp",
+    "portrait": "Fotografija-direktora-za-sajt-scaled.webp",
+    "logo": "vinex-logo-transparent.webp",
+    "icon": "vinex-site-icon-512.webp"
+  },
+  "credentials": [
+    {
+      "slot": "diploma-1"
+    },
+    {
+      "slot": "diploma-2"
+    },
+    {
+      "slot": "diploma-3"
+    }
+  ],
+  "_credentials": "Each slot looks for assets/images/diplomas/<slot>.(jpg|jpeg|png|webp) — slots 1-3 hold his IKS licences. Texts: i18n credentials.items (same order). To add a slot, add {\"slot\":\"diploma-4\"} here and a 4th item in each language file.",
+  "methodImages": [
+    "espanjola-05.webp",
+    "ranko-labovic-vineks-projekt-arhitektura-espanjola-kolonada-ulaz-26-11.webp",
+    "ranko-labovic-vineks-projekt-arhitektura-espanjola-vestibil-detalj-26-28.webp",
+    "ranko-labovic-vineks-projekt-arhitektura-politova-fasada-26-03.webp",
+    "ranko-labovic-vineks-projekt-arhitektura-espanjola-balkon-pogled-more-26-31.webp",
+    "espanjola-03.webp"
+  ],
+  "_methodImages": "Photos shown between the essays on the Method page (one per essay, same order).",
+  "serviceGroups": [
+    [
+      0,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      8,
+      6
+    ],
+    [
+      5,
+      7,
+      9,
+      10
+    ]
+  ],
+  "_serviceGroups": "Homepage row 3: the 11 services (indexes into i18n services.items) grouped into three lists; titles in i18n home.serviceGroups.",
+  "projects": [
+    {
+      "slug": "espanjola",
+      "year": 2018,
+      "cover": "espanjola-1-scaled.webp",
+      "heroPosition": "50% 60%",
+      "facts": {
+        "area": "TODO",
+        "status": "TODO"
+      },
+      "gallery": [
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-eksterijer-bazen-26-07.webp",
+          "room": "exteriorPool"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-fasada-apartmani-26-08.webp",
+          "room": "facade"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-terasa-pogled-more-26-09.webp",
+          "room": "terraceSea"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-balkon-pogled-more-26-31.webp",
+          "room": "balconySea"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kolonada-ulaz-26-11.webp",
+          "room": "colonnade"
+        },
+        {
+          "file": "espanjola-03.webp",
+          "room": "visualisation"
+        },
+        {
+          "file": "espanjola-05.webp",
+          "room": "visualisation"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-vestibil-26-10.webp",
+          "room": "vestibule"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-vestibil-26-12.webp",
+          "room": "vestibule"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-vestibil-detalj-26-28.webp",
+          "room": "vestibuleDetail"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-06.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-deo-dnevne-sobe-26-13.webp",
+          "room": "livingPart"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-14.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-20.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-21.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-22.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-24.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-27.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-dnevna-soba-26-29.webp",
+          "room": "living"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kuhinja-bar-26-23.webp",
+          "room": "kitchenBar"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kuhinja-bar-26-25.webp",
+          "room": "kitchenBar"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-trpezarija-26-26.webp",
+          "room": "dining"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-spavaca-soba-26-15.webp",
+          "room": "bedroom"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-spavaca-soba-26-30.webp",
+          "room": "bedroom"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-spavaca-soba-26-32.webp",
+          "room": "bedroom"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kupatilo-26-16.webp",
+          "room": "bathroom"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kupatilo-26-17.webp",
+          "room": "bathroom"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kupatilo-26-18.webp",
+          "room": "bathroom"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-espanjola-kupatilo-26-19.webp",
+          "room": "bathroom"
+        }
+      ]
+    },
+    {
+      "slug": "politova-12-juzni-bulevar",
+      "year": 2020,
+      "cover": "politova-12-scaled.webp",
+      "heroPosition": "50% 35%",
+      "facts": {
+        "area": "TODO",
+        "status": "TODO"
+      },
+      "gallery": [
+        {
+          "file": "politova-12-scaled.webp",
+          "room": "building"
+        },
+        {
+          "file": "politova-12-juzni-bulevar-02.webp",
+          "room": "building"
+        },
+        {
+          "file": "ranko-labovic-vineks-projekt-arhitektura-politova-fasada-26-03.webp",
+          "room": "facade"
+        }
+      ]
+    },
+    {
+      "slug": "odmaraliste-u-sociju",
+      "year": 2015,
+      "cover": "sochi-projekat-scaled.webp",
+      "heroPosition": "50% 50%",
+      "facts": {
+        "area": "TODO",
+        "status": "TODO",
+        "client": true
+      },
+      "gallery": [
+        {
+          "file": "sochi-projekat-scaled.webp",
+          "room": "visualisation"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "slug": "niskogradnja-i-visokogradnja-razlike-i-izazovi",
+      "date": "2026-06-26",
+      "image": "ranko-labovic-vineks-projekt-visokogradnja-stambena-zgrada-26-01.webp",
+      "published": true
+    },
+    {
+      "slug": "urbani-pejzazi-kako-projektovanje-oblikuje-nasa-mesta",
+      "date": "2026-06-25",
+      "image": "ranko-labovic-vineks-projekt-urbanizam-urbani-pejzaz-26-01.webp",
+      "published": true
+    },
+    {
+      "slug": "arhitektura-kao-ogledalo-drustva",
+      "date": "2026-06-24",
+      "image": "ranko-labovic-vineks-projekt-arhitektura-neboderi-26-01.webp",
+      "published": true
+    },
+    {
+      "slug": "dobrodosli-na-novi-sajt",
+      "date": "2026-06-20",
+      "image": "espanjola-1-scaled.webp",
+      "published": false,
+      "_note": "Hidden: this post announces the previous website (built by CIP). Republish or replace it with an announcement of the redesign."
+    }
+  ]
+}

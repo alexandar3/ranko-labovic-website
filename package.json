@@ -1,0 +1,19 @@
+{
+  "name": "rankolabovic-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for architect Ranko Labović / Vinex Projekt d.o.o. (SR / EN / RU).",
+  "type": "module",
+  "scripts": {
+    "dev": "node build/dev.mjs",
+    "images": "node build/images.mjs",
+    "build": "node build/images.mjs && node build/build.mjs",
+    "html": "node build/build.mjs",
+    "serve": "node build/serve.mjs",
+    "start": "npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "sharp": "0.33.5"
+  },
+  "engines": { "node": ">=18" }
+}

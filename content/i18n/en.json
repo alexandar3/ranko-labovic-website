@@ -1,0 +1,481 @@
+{
+  "_readme": "English translation of sr.json. Keep the same keys. Proper names (Espanjola, Politova 12, Vinex Projekt) stay as in the original.",
+  "lang": "en",
+  "htmlLang": "en",
+  "hreflang": "en",
+  "ogLocale": "en_GB",
+  "intlLocale": "en-GB",
+  "label": "EN",
+  "languageName": "English",
+  "paths": {
+    "home": "/en/",
+    "method": "/en/method/",
+    "credentials": "/en/credentials/",
+    "newsList": "/en/news/",
+    "projects": "/en/projects/",
+    "services": "/en/services/",
+    "contact": "/en/your-project/",
+    "project": "/en/project/",
+    "news": "/en/news/",
+    "company": "/en/company-details/",
+    "privacy": "/en/privacy-policy/"
+  },
+  "meta": {
+    "siteName": "Ranko Labović — Architect",
+    "homeTitle": "Ranko Labović — Architect | Vinex Projekt, Belgrade",
+    "homeDescription": "Ranko Labović, architect, and Vinex Projekt d.o.o., Belgrade: architectural design, urban planning and construction supervision in Serbia and the region.",
+    "methodTitle": "Our method | Ranko Labović, Architect",
+    "methodDescription": "Six principles behind the work of Ranko Labović and Vinex Projekt: precise lines, natural materials, light and proportion, place, people and permanence.",
+    "credentialsTitle": "Credentials & licences | Ranko Labović, Architect",
+    "credentialsDescription": "Serbian Chamber of Engineers licences: responsible urban planner, responsible designer and responsible contractor — Ranko Labović, Dipl. Eng. Arch.",
+    "newsListTitle": "News | Ranko Labović, Architect",
+    "newsListDescription": "Writing from the Vinex Projekt practice and from the world of architecture, urban planning and construction.",
+    "projectsTitle": "Projects | Ranko Labović, Architect",
+    "projectsDescription": "Selected projects: Espanjola in Herceg Novi, the Politova 12 mixed-use building in Belgrade and a resort in Sochi.",
+    "servicesTitle": "Services | Vinex Projekt d.o.o., Belgrade",
+    "servicesDescription": "Building and civil engineering design, urban planning, construction supervision, design review, consulting and expert reports.",
+    "contactTitle": "Your project — contact | Vinex Projekt d.o.o.",
+    "contactDescription": "Contact architect Ranko Labović and Vinex Projekt d.o.o., Palmotićeva 19, Belgrade. Free initial consultation.",
+    "projectTitle": "{name} — {location} | Ranko Labović, Architect",
+    "newsTitle": "{title} | Ranko Labović, Architect",
+    "notFoundTitle": "Page not found | Ranko Labović",
+    "companyTitle": "Company details | Vinex Projekt d.o.o.",
+    "companyDescription": "Official company details of Vinex Projekt d.o.o., Belgrade: tax ID, registration number, registered office and principal activity.",
+    "privacyTitle": "Privacy policy | Vinex Projekt d.o.o.",
+    "privacyDescription": "Privacy policy of rankolabovic.com — how Vinex Projekt d.o.o., Belgrade, handles personal data sent through the website."
+  },
+  "brand": {
+    "name": "Ranko Labović",
+    "role": "architect"
+  },
+  "nav": {
+    "method": "Method",
+    "credentials": "Credentials",
+    "newsList": "News",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Your project",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "language": "Choose language",
+    "home": "Home",
+    "more": "More"
+  },
+  "pages": {
+    "home": {
+      "kicker": "Architecture · Urban planning · Construction supervision",
+      "pale": "Ranko",
+      "dark": "Labović"
+    },
+    "method": {
+      "kicker": "Approach to design",
+      "pale": "Our",
+      "dark": "method"
+    },
+    "credentials": {
+      "kicker": "Education · licences · memberships",
+      "pale": "",
+      "dark": "Credentials"
+    },
+    "newsList": {
+      "kicker": "From our practice and the world of architecture",
+      "pale": "",
+      "dark": "News"
+    },
+    "projects": {
+      "kicker": "Selected work",
+      "pale": "Selected",
+      "dark": "projects"
+    },
+    "services": {
+      "kicker": "What we do",
+      "pale": "Our",
+      "dark": "services"
+    },
+    "contact": {
+      "kicker": "Tell us what you are planning",
+      "pale": "Your",
+      "dark": "project"
+    }
+  },
+  "home": {
+    "portraitAlt": "Ranko Labović, architect and founder of Vinex Projekt, in his office",
+    "bioTitle": "Bio",
+    "bio": [
+      "Graduate engineer of architecture (Dipl. Eng. Arch.). Founder and director of Vinex Projekt d.o.o., Belgrade, which has provided planning, design and construction-supervision services since 2008.",
+      "Member of the Serbian Chamber of Engineers, licensed as responsible urban planner, responsible designer of architectural projects and responsible contractor for building construction.",
+      "The practice’s work spans residential, mixed-use and hospitality buildings in Serbia, Montenegro and Russia — from a building on Politova Street in Belgrade to a resort for the Central Bank of the Russian Federation in Sochi.",
+      "“An architect should be on the path of meeting people’s most fundamental needs — a place to live first among them.”"
+    ],
+    "chronoTitle": "Chronology",
+    "chrono": [
+      [
+        "2020",
+        "Politova 12 — Južni Bulevar, mixed-use building, Belgrade"
+      ],
+      [
+        "2018",
+        "Espanjola, residential building beside the Španjola Fortress, Herceg Novi"
+      ],
+      [
+        "2015",
+        "Resort in Sochi for the Central Bank of the Russian Federation"
+      ],
+      [
+        "2008",
+        "Founding of Vinex Projekt d.o.o., Belgrade"
+      ],
+      [
+        "IKS",
+        "Licence 400 9189 05 — responsible contractor, building construction"
+      ],
+      [
+        "IKS",
+        "Licence 300 Ц292 05 — responsible designer, architectural projects"
+      ],
+      [
+        "IKS",
+        "Licence 200 0888 06 — responsible urban planner"
+      ]
+    ],
+    "serviceGroups": [
+      "Design",
+      "Construction & management",
+      "Expertise & advisory"
+    ]
+  },
+  "method": {
+    "items": [
+      {
+        "title": "Precision of line",
+        "text": "Every project begins with a line, and everything that follows depends on it. We believe in the precision of every line — in a drawing that is clear to the builder, to the client and to time. An exact detail is not pedantry; it is respect for those who will build the building and live in it. So we develop each project from concept to construction detail without shortcuts, checking every dimension against structure, services and regulations. When the line is right, the building goes up calmly, without improvisation on site, and the finished space feels composed and unforced."
+      },
+      {
+        "title": "The warmth of natural materials",
+        "text": "Stone, timber, plaster and ceramics carry what no imitation can: weight, warmth and the ability to age well. We choose natural materials because they give a space calm and authority, not for their effect in a photograph. Each material has its place and its logic — stone where the building meets the ground and its history, timber and ceramics where life happens. We combine them with restraint, so that they complement rather than compete with one another. A material used honestly needs no added decoration; it becomes the ornament itself."
+      },
+      {
+        "title": "Light and proportion",
+        "text": "Architecture is a quiet dialogue between light, texture and proportion. Light reveals the material, proportion gives it measure, texture makes it tangible. So we do not draw a space as a sum of rooms, but as a set of relationships: height and width, solid and void, shadow and sheen. A well-proportioned space feels calm even when it is modest in size. We set orientation, openings and room depth so that daylight becomes the principal material of the interior — the one that changes through the day and costs nothing."
+      },
+      {
+        "title": "A dialogue with place",
+        "text": "Every project is a unique study of context and material. A building never stands alone: it answers the terrain, the view, its neighbours and the history of the site. In Herceg Novi this meant a building that speaks the language of the Španjola Fortress while keeping the view to the sea completely open. In Belgrade, on Politova Street, it meant a new discipline for the façade — straight lines and a considered combination of materials within a dense urban fabric. We see the site not as a constraint, but as the first and most important part of the brief."
+      },
+      {
+        "title": "Space made for people",
+        "text": "An architect should be on the path of meeting people’s most fundamental needs — a place to live first among them. So a project does not begin with form but with conversation: how people will live, work, rest and gather in the space. We have learned to tell what a client truly needs from what they do not — and to say so openly. The client is treated with respect, and their real requirements become the basis of every decision, from the layout of rooms to the last detail. Only once the function is clear can the form be free."
+      },
+      {
+        "title": "Built to last",
+        "text": "We strive for a beauty of space that stands the test of time. This is not a style but a responsibility: a building outlives fashion, its client and often the architect. That is why we choose durable materials, simple structural systems and details that can be maintained. Through construction supervision we make sure the project is built as it was conceived, because even the best design loses its value if it is poorly built. For us, permanence and aesthetic clarity are the same thing — a building that ages well is a building that was well designed."
+      }
+    ]
+  },
+  "credentials": {
+    "open": "Enlarge",
+    "placeholderTitle": "Diploma coming soon",
+    "placeholderSub": "Diploma uskoro",
+    "items": [
+      {
+        "label": "Urban planner",
+        "big": "200",
+        "status": "Responsible urban planner",
+        "title": "Serbian Chamber of Engineers",
+        "meta": "Licence no. 200 0888 06 — urban plans and urban design projects.",
+        "caption": "Licence no. 200 0888 06 — responsible urban planner for urban plans and urban design projects",
+        "alt": "Licence no. 200 0888 06 — responsible urban planner for urban plans and urban design projects, Ranko Labović (Serbian Chamber of Engineers)"
+      },
+      {
+        "label": "Designer",
+        "big": "300",
+        "status": "Responsible designer",
+        "title": "Serbian Chamber of Engineers",
+        "meta": "Licence no. 300 Ц292 05 — architectural projects, landscaping of open spaces and internal water-supply and sewerage installations.",
+        "caption": "Licence no. 300 Ц292 05 — responsible designer of architectural projects, open-space landscaping and internal water-supply and sewerage installations",
+        "alt": "Licence no. 300 Ц292 05 — responsible designer of architectural projects and water-supply and sewerage installations, Ranko Labović (Serbian Chamber of Engineers)"
+      },
+      {
+        "label": "Contractor",
+        "big": "400",
+        "status": "Responsible contractor",
+        "title": "Serbian Chamber of Engineers",
+        "meta": "Licence no. 400 9189 05 — building construction and water-supply and sewerage installations.",
+        "caption": "Licence no. 400 9189 05 — responsible contractor for building construction and water-supply and sewerage installations",
+        "alt": "Licence no. 400 9189 05 — responsible contractor for building construction and water-supply and sewerage installations, Ranko Labović (Serbian Chamber of Engineers)"
+      }
+    ]
+  },
+  "services": {
+    "cta": "Need our services?",
+    "ctaText": "Get in touch and let's arrange an initial consultation.",
+    "ctaLink": "Get in touch",
+    "items": [
+      {
+        "title": "Building and civil engineering design",
+        "text": "Buildings and infrastructure — from concept design to detailed construction documents, in line with current regulations and standards."
+      },
+      {
+        "title": "Construction supervision",
+        "text": "Professional site supervision that safeguards build quality at every stage, in keeping with the design documentation and the programme."
+      },
+      {
+        "title": "Urban planning and design",
+        "text": "Planning and shaping space in line with planning regulations, zoning plans and the needs of the community."
+      },
+      {
+        "title": "River and watercourse regulation",
+        "text": "Flood-protection, river-training and watercourse regulation projects, prepared together with the competent authorities."
+      },
+      {
+        "title": "Complex design assignments",
+        "text": "Solving demanding design problems that call for an interdisciplinary approach and a high level of technical expertise."
+      },
+      {
+        "title": "Consulting",
+        "text": "Expert advice and support for investors at every stage — from site selection to the handover of the finished building."
+      },
+      {
+        "title": "Permits and documentation",
+        "text": "Assistance in obtaining every required permit, approval and item of technical documentation from the relevant authorities."
+      },
+      {
+        "title": "Design review",
+        "text": "Independent expert review of design solutions to identify and eliminate potential errors before construction begins."
+      },
+      {
+        "title": "Project management",
+        "text": "Coordinating everyone involved in design and construction so that the project is delivered on time and on budget."
+      },
+      {
+        "title": "Regulatory advice",
+        "text": "Expert interpretation of building regulations, standards and codes so they are applied correctly in design and construction."
+      },
+      {
+        "title": "Expert witness reports",
+        "text": "Expert findings and opinions for court proceedings, insurance companies and investors."
+      }
+    ]
+  },
+  "projects": {
+    "kicker": "Selected work",
+    "title": "Selected projects",
+    "view": "View project",
+    "about": "About the project",
+    "gallery": "Gallery",
+    "photos": "photos",
+    "prev": "Previous",
+    "next": "Next",
+    "all": "All projects",
+    "todo": "To be confirmed",
+    "facts": {
+      "location": "Location",
+      "type": "Type",
+      "year": "Year",
+      "area": "Floor area",
+      "status": "Status",
+      "client": "Client"
+    },
+    "rooms": {
+      "exteriorPool": "exterior with pool",
+      "facade": "façade",
+      "terraceSea": "terrace overlooking the sea",
+      "balconySea": "balcony overlooking the sea",
+      "colonnade": "colonnade and entrance",
+      "visualisation": "visualisation",
+      "vestibule": "vestibule",
+      "vestibuleDetail": "vestibule, detail",
+      "living": "living room",
+      "livingPart": "living room, detail",
+      "kitchenBar": "kitchen with bar",
+      "dining": "dining room",
+      "bedroom": "bedroom",
+      "bathroom": "bathroom",
+      "building": "residential and commercial building"
+    },
+    "items": {
+      "espanjola": {
+        "name": "Espanjola",
+        "location": "Herceg Novi, Montenegro",
+        "type": "Residential building",
+        "description": [
+          "A construction undertaking — and, before that, a design one — that converses in style with the Španjola Fortress, the historic fortification directly beside which it stands. The building's layout and programme were shaped around a site that commands its surroundings, where the view towards the sea is completely unobstructed and open: it is this view that gives the location its particular value."
+        ]
+      },
+      "politova-12-juzni-bulevar": {
+        "name": "Politova 12 — Južni Bulevar",
+        "location": "Belgrade, Serbia",
+        "type": "Mixed-use residential and commercial building",
+        "description": [
+          "The residential and commercial building at 12 Politova Street is a concept, defined through its design, that uses straight lines and a combination of different materials to compose an entirely new way of thinking about exterior façade surfaces and the aesthetics of primary architectural massing."
+        ]
+      },
+      "odmaraliste-u-sociju": {
+        "name": "Resort in Sochi",
+        "location": "Sochi, Russia",
+        "type": "Hospitality and leisure",
+        "client": "Central Bank of the Russian Federation",
+        "description": [
+          "The resort in Sochi was funded by the Central Bank of the Russian Federation. The brief called for a scheme that would accommodate a large number of guests, open up views of the Black Sea coast and support social life through the afternoon and evening."
+        ]
+      }
+    },
+    "specTitle": "About the project",
+    "descTitle": "Description",
+    "practice": "Practice",
+    "practiceValue": "Vinex Projekt"
+  },
+  "news": {
+    "readMore": "Read more",
+    "back": "All news",
+    "items": {
+      "niskogradnja-i-visokogradnja-razlike-i-izazovi": {
+        "title": "Civil engineering and building construction: key differences and challenges",
+        "excerpt": "As cities around the world grow and change, the construction sector faces the challenge of making the best possible use of available resources and space.",
+        "body": "<p>As cities around the world grow and change, the construction sector faces the challenge of making the best possible use of available resources and space. In the Serbian tradition the industry divides into two main fields — <em>niskogradnja</em> (low-rise and civil construction) and <em>visokogradnja</em> (building construction, up to high-rise) — each with its own character, advantages and challenges. In this article we look at the key differences between the two and at how they shape the modern city.</p><h2>Low-rise construction: function meets affordability</h2><p>Low-rise construction covers projects of relatively modest height, usually with simpler structures: single- and two-storey buildings, houses, residential estates and smaller commercial premises. Its main advantages include:</p><p><strong>Affordability:</strong> low-rise construction generally requires fewer resources and less capital than high-rise, which makes it accessible to a wider range of people.</p><p><strong>Flexibility:</strong> smaller structures are often easier to adapt to different needs and to changes in what their users require.</p><p>Low-rise construction has its challenges too, such as limits on how intensively land can be used and the difficulty of achieving high residential or commercial density.</p><h2>High-rise construction: reaching beyond limits</h2><p>At the other end of the spectrum, high-rise construction means tall buildings that reach for the sky: skyscrapers, residential towers, office complexes and shopping centres. Its key advantages include:</p><p><strong>Making the most of space:</strong> tall buildings use scarce urban land to the full, accommodating more residents or more activity on the same footprint.</p><p><strong>Iconic architecture:</strong> skyscrapers often become symbols of their cities and open the door to architectural creativity and innovation.</p><p>For all its advantages, high-rise construction can be more expensive and more demanding to deliver, with challenges in structural engineering, safety and logistics.</p><h2>The future: bringing low-rise and high-rise together</h2><p>Contemporary urban planning increasingly combines low-rise and high-rise elements to strike the right balance between function, sustainability and aesthetics. Mixed-use residential and commercial schemes, green urban spaces and vertical farms are examples of innovative approaches that bring together the best of both worlds.</p><p>In the end, low-rise and high-rise construction are two essential sides of the building industry, each with its own character and strengths. Bringing them into harmony can help create more balanced and more sustainable cities for generations to come.</p>"
+      },
+      "urbani-pejzazi-kako-projektovanje-oblikuje-nasa-mesta": {
+        "title": "Urban landscapes: how design shapes our places",
+        "excerpt": "Urban landscapes are a vivid network of cities that reflects our shared heritage, cultural identity and social values.",
+        "body": "<p>Urban landscapes are a vivid network of cities that reflects our shared heritage, cultural identity and social values. The design of urban space plays a key role in shaping our cities — in how we live, work and connect with one another. It is the story of an encounter between people, architecture and space, one that keeps evolving to meet the needs of contemporary society.</p><h2>Urban landscapes: what makes a city?</h2><p>Cities are more than buildings and streets. They are living organisms, constantly growing and adapting. The urban landscape takes in a wide range of elements — public spaces, greenery, infrastructure, transport networks and architecture — and together they make up the “soul” of a city.</p><h2>Designing in the urban context: balancing form and function</h2><p>Designing urban space means balancing aesthetics and function. Architecture brings beauty to the city, while infrastructure and urban planning keep it working and sustainable. This combined approach creates cities that are good places to live and work.</p><h2>Sustainability in the city: the green cities of the future</h2><p>Sustainability carries ever more weight in urban planning and design. Green space, renewable energy, efficient use of resources and recycling are the cornerstones of a sustainable city. Designing to reduce a city's environmental footprint has become imperative in the face of climate change and rapid urban growth.</p><h2>Digital transformation and urbanism: smart cities</h2><p>Technology increasingly shapes how we design and run our cities. Smart cities use the Internet of Things, data and digital platforms to improve the efficiency of infrastructure, transport, public services and communication. This digital transformation promises cities that are more efficient, more economical and more comfortable for the people who live in them.</p><p>Urban landscapes are living entities that never stop evolving. Design and urbanism play a central role in shaping cities that are inspiring, sustainable and inclusive. Through careful planning, innovative design and an inclusive approach, cities can become not only places to live, but sources of inspiration and progress for society as a whole.</p>"
+      },
+      "arhitektura-kao-ogledalo-drustva": {
+        "title": "Architecture as a mirror of society: how buildings shape identity",
+        "excerpt": "Architecture is more than construction — it is a mirror of society, reflecting its values, priorities and identity.",
+        "body": "<p>Architecture is more than construction — it is a mirror of society, reflecting its values, priorities and identity. Throughout history, buildings have witnessed cultural, political and technological change, leaving a lasting mark on the urban landscape and on our collective consciousness. That is why we want to explore how architecture shapes the way we perceive the world, and how it influences the way we live and relate to our surroundings.</p><h2>Architecture as cultural heritage</h2><p>Buildings are often symbols of culture and tradition, bearing witness to past eras and to a community's cultural identity. Through style, materials and ornament, they preserve stories and values that pass from one generation to the next.</p><h2>Architecture as an expression of identity</h2><p>Architecture is a powerful expression of a society's identity and aspirations. Iconic structures such as the Eiffel Tower in Paris or the Burj Khalifa in Dubai become symbols of national pride, recognised around the world.</p><h2>Architecture as a response to place</h2><p>Architects take the natural and social environment into account when they design. Local materials, climate and cultural traditions all inform the design, producing buildings that are functional, aesthetically considered and environmentally sustainable.</p><h2>Architecture as innovation</h2><p>Architecture is a field for innovation and experiment. Advanced technologies — digital design, 3D printing and passive-energy architecture among them — allow architects to create groundbreaking buildings that redefine what is possible.</p><h2>Architecture as inspiration for the future</h2><p>Buildings do not only reflect the present state of society; they inspire generations to come. Innovative concepts such as vertical forests, smart cities and sustainable settlements set the standard for a future of building that is environmentally aware, inclusive and technologically advanced.</p><p>In all its diversity and complexity, architecture remains a key element in shaping our cities and our identity. Through innovative ideas, cultural heritage and social engagement, it remains an inexhaustible source of inspiration and change in our world.</p>"
+      }
+    }
+  },
+  "contactPage": {
+    "cards": [
+      {
+        "title": "Architecture",
+        "text": "Design of buildings and civil works — from concept design to detailed construction documents."
+      },
+      {
+        "title": "Urban planning",
+        "text": "Urban design projects, planning and shaping of space in line with regulations and the needs of the community."
+      },
+      {
+        "title": "Supervision & advisory",
+        "text": "Construction supervision, project management, design review and expert reports."
+      }
+    ],
+    "officeTitle": "Office"
+  },
+  "contact": {
+    "visit": "The Vinex Projekt d.o.o. office is in central Belgrade, in the Stari Grad (Old Town) district. You are welcome to visit us by appointment.",
+    "addressLabel": "Address",
+    "address": "Palmotićeva 19, 11000 Belgrade (Stari Grad), Serbia",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "followLabel": "Follow us",
+    "mapTitle": "Map: Vinex Projekt, Palmotićeva 19, Belgrade",
+    "mapLink": "Open in Google Maps",
+    "form": {
+      "title": "Send a message",
+      "name": "Full name",
+      "email": "Email",
+      "message": "Message",
+      "required": "required",
+      "submit": "Send",
+      "sending": "Sending…",
+      "errName": "Please enter your full name.",
+      "errEmail": "Please enter a valid email address.",
+      "errMessage": "Please write a message (at least 10 characters).",
+      "errSummary": "Please check the highlighted fields.",
+      "success": "Thank you — your message has been sent. We will be in touch shortly.",
+      "failure": "Your message could not be sent. Please try again or email us at {email}.",
+      "notConnected": "The form is not connected yet. Please email us directly at {email} or call {phone}."
+    }
+  },
+  "band": {
+    "kicker": "Get in touch for a free consultation.",
+    "line1": "Get",
+    "line2": "in touch",
+    "copy": "Architecture & design"
+  },
+  "footer": {
+    "tagline": "Architecture · Design · Construction supervision",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "companyTitle": "Company",
+    "pib": "Tax ID (PIB)",
+    "mb": "Reg. no. (MB)",
+    "companyLink": "Company details",
+    "privacyLink": "Privacy policy",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "companyPage": {
+    "kicker": "Legal information",
+    "title": "Company details",
+    "intro": "Official details of the company Vinex Projekt d.o.o.",
+    "rows": [
+      [
+        "Registered name",
+        "VINEX-PROJEKT d.o.o. Beograd (Stari grad)"
+      ],
+      [
+        "Tax ID (PIB)",
+        "105407765"
+      ],
+      [
+        "Company registration no. (MB)",
+        "20370998"
+      ],
+      [
+        "Legal form",
+        "Limited liability company (d.o.o.)"
+      ],
+      [
+        "Registered office",
+        "Palmotićeva 19, 11000 Belgrade (Stari Grad), Serbia"
+      ],
+      [
+        "Founded",
+        "14 January 2008"
+      ],
+      [
+        "Principal activity",
+        "4110 — Development of building projects"
+      ],
+      [
+        "Director / legal representative",
+        "Ranko Labović"
+      ],
+      [
+        "Owner",
+        "Ranko Labović (100%)"
+      ],
+      [
+        "Size",
+        "Micro-enterprise"
+      ],
+      [
+        "Status",
+        "Active"
+      ]
+    ],
+    "source": "Source: public register of business entities of the Republic of Serbia."
+  },
+  "privacyPage": {
+    "kicker": "Legal notice",
+    "title": "Privacy policy",
+    "body": "<p>This page is being prepared.</p>"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "back": "Back to the home page"
+  },
+  "lightbox": {
+    "label": "Photo viewer",
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "of": "of"
+  }
+}
