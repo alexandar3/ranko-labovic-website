@@ -235,7 +235,7 @@ A second, separate site built **alongside** v1. v1 (`build/build.mjs` → `dist/
 - `content/v2/{sr,en,ru}.json`: **overrides** deep-merged over `content/i18n/<lang>.json` (brand, meta, nav, hero, stats, about, page titles, v2 labels). Change shared texts (services, projects, news) in `content/i18n/` and both versions update.
 - `assets/v2/`: logo and favicon.
 - Fonts: the Inter files already in `src/themes/kostelov/`, read-only.
-- The contact form uses the same `formEndpoint` and `formSubject` as v1 (FormSubmit → info@rankolabovic.com, subject "Website Pitanje").
+- The contact form uses the same `formEndpoint` and `formSubject` as v1 (FormSubmit → vinex.projekt@gmail.com, subject "Website Pitanje").
 - Screenshots: `docs/v2-screens/`.
 
 **Checked:**

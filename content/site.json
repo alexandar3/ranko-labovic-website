@@ -11,8 +11,8 @@
   "_theme": "Visual theme (colours + fonts) from src/themes/<name>/. Available: \"klasik\" (old architect: parchment, drafting-ink blue, sepia, brass, Inter), \"bordo\" (burgundy / olive / beige, Inter), \"formbureau\" (formbureau.co.uk blues, Inter), \"kostelov\" (beige/bronze, Inter — version 2) and \"terracotta\" (concrete/copper/terracotta, Unbounded + Onest). Change this word and rebuild to switch.",
   "showTodos": true,
   "_showTodos": "true = unknown facts are shown as a visible TODO tag (for review). Set to false before launch to show a dash instead.",
-  "formEndpoint": "https://formsubmit.co/ajax/info@rankolabovic.com",
-  "_formEndpoint": "Contact form -> info@rankolabovic.com via FormSubmit (formsubmit.co, free, no account). The FIRST submission sends an activation email to info@rankolabovic.com: click \"Activate Form\" once, then all messages arrive in that inbox (Reply goes to the sender). Optional: after activation FormSubmit e-mails a random alias (e.g. https://formsubmit.co/ajax/abc123...) — paste it here to hide the address from spam bots. Empty = form shows a \"not connected, please e-mail us\" message.",
+  "formEndpoint": "https://formsubmit.co/ajax/vinex.projekt@gmail.com",
+  "_formEndpoint": "Contact form -> vinex.projekt@gmail.com via FormSubmit (formsubmit.co, free, no account). The FIRST submission sends an activation email to vinex.projekt@gmail.com: click \"Activate Form\" once, then all messages arrive in that inbox (Reply goes to the sender). Optional: after activation FormSubmit e-mails a random alias (e.g. https://formsubmit.co/ajax/abc123...) — paste it here to hide the address from spam bots. Empty = form shows a \"not connected, please e-mail us\" message.",
   "formSubject": "Website Pitanje",
   "_formSubject": "Subject line of the e-mail Ranko receives for every contact-form message (all languages).",
   "person": {
@@ -37,7 +37,7 @@
     "phoneDisplay": "011 6555 520",
     "phoneIntl": "+381 11 6555 520",
     "phoneHref": "+381116555520",
-    "email": "info@rankolabovic.com",
+    "email": "vinex.projekt@gmail.com",
     "mapQuery": "Palmotićeva 19, Beograd"
   },
   "social": {

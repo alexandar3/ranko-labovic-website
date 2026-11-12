@@ -190,7 +190,7 @@ function contactSection(l) {
       </ul>
       ${social(l)}
     </div>
-    <!-- Messages go to formEndpoint in content/site.json (FormSubmit -> info@rankolabovic.com). -->
+    <!-- Messages go to formEndpoint in content/site.json (FormSubmit -> vinex.projekt@gmail.com). -->
     <form class="form" id="contact-form" action="${esc(site.formEndpoint ? site.formEndpoint.replace('formsubmit.co/ajax/', 'formsubmit.co/') : '#contact')}" method="post" novalidate data-reveal
       data-endpoint="${esc(site.formEndpoint)}" data-email="${c.email}" data-phone="${phone(l)}" data-phone-href="${c.phoneHref}"
       data-err-name="${f('errName')}" data-err-email="${f('errEmail')}" data-err-message="${f('errMessage')}" data-err-summary="${f('errSummary')}"
