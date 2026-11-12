@@ -1,0 +1,7 @@
+# Netlify: publish VERSION 2 (Vinex Projekt). v1 is not deployed.
+[build]
+  command = "npm run build:v2"
+  publish = "dist-v2"
+
+[build.environment]
+  NODE_VERSION = "22"
