@@ -138,11 +138,14 @@ function band(l) {
     <p class="ncopy">© ${YEAR} ${esc(t(l, 'brand.name'))} · ${esc(t(l, 'band.copy'))}<br><a href="tel:${c.phoneHref}">${phone(l)}</a> · <a href="mailto:${c.email}">${c.email}</a></p>
   </div>
   <!-- TODO: set "formEndpoint" in content/site.json (Formspree / Netlify Forms / Basin / own PHP script). -->
-  <form id="contact-form" action="${esc(site.formEndpoint || '#contact')}" method="post" novalidate
+  <form id="contact-form" action="${esc(site.formEndpoint ? site.formEndpoint.replace('formsubmit.co/ajax/', 'formsubmit.co/') : '#contact')}" method="post" novalidate
     data-endpoint="${esc(site.formEndpoint)}" data-email="${c.email}" data-phone="${phone(l)}" data-phone-href="${c.phoneHref}"
     data-err-name="${f('errName')}" data-err-email="${f('errEmail')}" data-err-message="${f('errMessage')}" data-err-summary="${f('errSummary')}"
     data-success="${f('success')}" data-failure="${f('failure')}" data-not-connected="${f('notConnected')}" data-sending="${f('sending')}">
     <input type="hidden" name="language" value="${l}">
+    <input type="hidden" name="_subject" value="${esc(t(l, 'brand.name'))} — rankolabovic.com (${l.toUpperCase()})">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
     <label for="cf-name">${f('name')}</label><input id="cf-name" name="name" type="text" autocomplete="name" required aria-describedby="cf-name-err"><span class="err" id="cf-name-err" aria-live="polite"></span>
     <label for="cf-email">${f('email')}</label><input id="cf-email" name="email" type="email" autocomplete="email" required aria-describedby="cf-email-err"><span class="err" id="cf-email-err" aria-live="polite"></span>
     <label for="cf-message">${f('message')}</label><textarea id="cf-message" name="message" rows="3" required aria-describedby="cf-message-err"></textarea><span class="err" id="cf-message-err" aria-live="polite"></span>

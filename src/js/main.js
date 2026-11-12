@@ -129,6 +129,8 @@
       try {
         const r = await fetch(endpoint, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
         if (!r.ok) throw new Error(r.status);
+        const data = await r.json().catch(() => ({}));
+        if (data.success === false || data.success === 'false') throw new Error(data.message || 'rejected');
         form.reset(); status.textContent = d.success; status.classList.add('is-ok');
       } catch (err) {
         status.innerHTML = fill(d.failure);

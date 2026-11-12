@@ -11,8 +11,8 @@
   "_theme": "Visual theme (colours + fonts) from src/themes/<name>/. Available: \"bordo\" (burgundy / olive / beige, Inter), \"formbureau\" (formbureau.co.uk blues, Inter), \"kostelov\" (beige/bronze, Inter — version 2) and \"terracotta\" (concrete/copper/terracotta, Unbounded + Onest). Change this word and rebuild to switch.",
   "showTodos": true,
   "_showTodos": "true = unknown facts are shown as a visible TODO tag (for review). Set to false before launch to show a dash instead.",
-  "formEndpoint": "",
-  "_formEndpoint": "TODO: paste a form backend URL here (e.g. https://formspree.io/f/xxxx or a Netlify/Basin/Getform endpoint). While empty, the form validates and then shows a message asking visitors to email instead.",
+  "formEndpoint": "https://formsubmit.co/ajax/info@rankolabovic.com",
+  "_formEndpoint": "Contact form -> info@rankolabovic.com via FormSubmit (formsubmit.co, free, no account). The FIRST submission sends an activation email to info@rankolabovic.com: click \"Activate Form\" once, then all messages arrive in that inbox (Reply goes to the sender). Optional: after activation FormSubmit e-mails a random alias (e.g. https://formsubmit.co/ajax/abc123...) — paste it here to hide the address from spam bots. Empty = form shows a \"not connected, please e-mail us\" message.",
   "person": {
     "name": "Ranko Labović",
     "nameRu": "Ранко Лабович"
