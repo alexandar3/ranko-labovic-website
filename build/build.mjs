@@ -143,7 +143,7 @@ function band(l) {
     data-err-name="${f('errName')}" data-err-email="${f('errEmail')}" data-err-message="${f('errMessage')}" data-err-summary="${f('errSummary')}"
     data-success="${f('success')}" data-failure="${f('failure')}" data-not-connected="${f('notConnected')}" data-sending="${f('sending')}">
     <input type="hidden" name="language" value="${l}">
-    <input type="hidden" name="_subject" value="${esc(t(l, 'brand.name'))} — rankolabovic.com (${l.toUpperCase()})">
+    <input type="hidden" name="_subject" value="${esc(site.formSubject || 'Website Pitanje')}">
     <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_captcha" value="false">
     <label for="cf-name">${f('name')}</label><input id="cf-name" name="name" type="text" autocomplete="name" required aria-describedby="cf-name-err"><span class="err" id="cf-name-err" aria-live="polite"></span>
