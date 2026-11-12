@@ -29,7 +29,7 @@
     "credentialsTitle": "Kvalifikacije i licence | Ranko Labović, arhitekta",
     "credentialsDescription": "Licence Inženjerske komore Srbije: odgovorni urbanista, odgovorni projektant i odgovorni izvođač radova — Ranko Labović, dipl. inž. arh.",
     "newsListTitle": "Novosti | Ranko Labović, arhitekta",
-    "newsListDescription": "Tekstovi iz projektantske prakse biroa Vinex Projekt i iz sveta arhitekture, urbanizma i građevinarstva.",
+    "newsListDescription": "Tekstovi iz projektantske prakse kompanije Vinex Projekt i iz sveta arhitekture, urbanizma i građevinarstva.",
     "projectsTitle": "Projekti | Ranko Labović, arhitekta",
     "projectsDescription": "Odabrani projekti: Espanjola u Herceg Novom, stambeno-poslovna zgrada Politova 12 u Beogradu i odmaralište u Sočiju.",
     "servicesTitle": "Usluge | Vinex Projekt d.o.o., Beograd",
@@ -104,9 +104,9 @@
     "portraitAlt": "Ranko Labović, arhitekta i osnivač Vinex Projekta, u svojoj kancelariji",
     "bioTitle": "Bio",
     "bio": [
-      "Diplomirani inženjer arhitekture. Osnivač i direktor biroa Vinex Projekt d.o.o. iz Beograda, koji od 2008. godine pruža usluge planiranja, projektovanja i nadzora izgradnje.",
+      "Diplomirani inženjer arhitekture. Osnivač i direktor kompanije Vinex Projekt d.o.o. iz Beograda, koja od 2008. godine pruža usluge planiranja, projektovanja i nadzora izgradnje.",
       "Član Inženjerske komore Srbije sa licencama odgovornog urbaniste, odgovornog projektanta arhitektonskih projekata i odgovornog izvođača radova visokogradnje.",
-      "Projekti biroa obuhvataju stambene, stambeno-poslovne i turističke objekte u Srbiji, Crnoj Gori i Rusiji — od zgrade u ulici Politova u Beogradu do odmarališta Centralne banke Ruske Federacije u Sočiju.",
+      "Projekti kompanije obuhvataju stambene, stambeno-poslovne i turističke objekte u Srbiji, Crnoj Gori i Rusiji — od zgrade u ulici Politova u Beogradu do odmarališta Centralne banke Ruske Federacije u Sočiju.",
       "„Arhitekta treba da bude na putu rešavanja osnovnih egzistencijalnih potreba čoveka, kao što je smeštajni prostor.”"
     ],
     "chronoTitle": "Hronologija",
@@ -125,7 +125,7 @@
       ],
       [
         "2008",
-        "Osnivanje biroa Vinex Projekt d.o.o., Beograd"
+        "Osnivanje kompanije Vinex Projekt d.o.o., Beograd"
       ],
       [
         "IKS",
@@ -324,7 +324,7 @@
     },
     "specTitle": "O projektu",
     "descTitle": "Opis",
-    "practice": "Biro",
+    "practice": "Kompanija",
     "practiceValue": "Vinex Projekt"
   },
   "news": {

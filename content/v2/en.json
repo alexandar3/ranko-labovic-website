@@ -6,7 +6,7 @@
   "meta": {
     "siteName": "Vinex Projekt",
     "homeTitle": "Vinex Projekt — architecture, urban planning & construction supervision | Belgrade",
-    "homeDescription": "Vinex Projekt d.o.o. is a Belgrade practice for architectural design, urban planning and construction supervision, founded in 2008. Projects in Serbia, Montenegro and Russia.",
+    "homeDescription": "Vinex Projekt d.o.o. is a Belgrade company for architectural design, urban planning and construction supervision, founded in 2008. Projects in Serbia, Montenegro and Russia.",
     "methodTitle": "Our approach | Vinex Projekt",
     "methodDescription": "Six principles behind the work of Vinex Projekt: precise lines, natural materials, light and proportion, place, people and permanence.",
     "credentialsTitle": "Licences & credentials | Vinex Projekt",
@@ -45,7 +45,7 @@
   "hero": {
     "kicker": "Architecture · Urban planning · Construction supervision",
     "title": "Beauty of space that stands the test of time.",
-    "lead": "Vinex Projekt is a Belgrade practice for architectural design, urban planning and construction supervision — from concept design to handover, in Serbia and across the region.",
+    "lead": "Vinex Projekt is a Belgrade company for architectural design, urban planning and construction supervision — from concept design to handover, in Serbia and across the region.",
     "ctaProjects": "View our projects",
     "ctaContact": "Free consultation",
     "imageAlt": "Espanjola, Herceg Novi — terrace overlooking the sea, a Vinex Projekt project",
@@ -54,7 +54,7 @@
   },
 
   "stats": [
-    { "value": "2008", "label": "year the practice was founded" },
+    { "value": "2008", "label": "year the company was founded" },
     { "value": "3", "label": "Serbian Chamber of Engineers licences" },
     { "value": "3", "label": "countries: Serbia, Montenegro, Russia" },
     { "value": "11", "label": "services — from design to supervision" }
@@ -62,7 +62,7 @@
 
   "about": {
     "kicker": "About us",
-    "statementStrong": "Vinex Projekt is a Belgrade practice for architecture, urban planning and construction supervision —",
+    "statementStrong": "Vinex Projekt is a Belgrade company for architecture, urban planning and construction supervision —",
     "statementSoft": "we believe in the precision of every line and the warmth of natural materials, creating spaces that radiate authority and calm.",
     "paragraphs": [
       "Since 2008 we have provided planning, design and construction-supervision services, with one aim: to turn every project into a successful and lasting reality.",
@@ -87,7 +87,7 @@
     "approachTitle": "Architecture is a quiet dialogue between light, texture and proportion",
     "credsKicker": "Licences",
     "credsTitle": "Responsibility backed by licences",
-    "credsText": "The founder of the practice is a member of the Serbian Chamber of Engineers with three licences.",
+    "credsText": "The founder of the company is a member of the Serbian Chamber of Engineers with three licences.",
     "newsKicker": "News",
     "newsTitle": "From our practice",
     "ctaKicker": "Contact",
@@ -101,12 +101,12 @@
     "readMore": "Read more",
     "readMethod": "Our full approach",
     "allCreds": "All licences",
-    "aboutCta": "About the practice",
+    "aboutCta": "About the company",
     "specTitle": "Project facts",
     "descTitle": "About the project",
     "galleryTitle": "Gallery",
     "officeTitle": "Office",
-    "footerText": "A Belgrade practice for architecture, urban planning and construction supervision, founded in 2008.",
+    "footerText": "A Belgrade company for architecture, urban planning and construction supervision, founded in 2008.",
     "menu": "Menu",
     "enlarge": "Enlarge"
   }

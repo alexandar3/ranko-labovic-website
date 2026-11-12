@@ -29,7 +29,7 @@
     "credentialsTitle": "Credentials & licences | Ranko Labović, Architect",
     "credentialsDescription": "Serbian Chamber of Engineers licences: responsible urban planner, responsible designer and responsible contractor — Ranko Labović, Dipl. Eng. Arch.",
     "newsListTitle": "News | Ranko Labović, Architect",
-    "newsListDescription": "Writing from the Vinex Projekt practice and from the world of architecture, urban planning and construction.",
+    "newsListDescription": "Writing from the Vinex Projekt company and from the world of architecture, urban planning and construction.",
     "projectsTitle": "Projects | Ranko Labović, Architect",
     "projectsDescription": "Selected projects: Espanjola in Herceg Novi, the Politova 12 mixed-use building in Belgrade and a resort in Sochi.",
     "servicesTitle": "Services | Vinex Projekt d.o.o., Belgrade",
@@ -106,7 +106,7 @@
     "bio": [
       "Graduate engineer of architecture (Dipl. Eng. Arch.). Founder and director of Vinex Projekt d.o.o., Belgrade, which has provided planning, design and construction-supervision services since 2008.",
       "Member of the Serbian Chamber of Engineers, licensed as responsible urban planner, responsible designer of architectural projects and responsible contractor for building construction.",
-      "The practice’s work spans residential, mixed-use and hospitality buildings in Serbia, Montenegro and Russia — from a building on Politova Street in Belgrade to a resort for the Central Bank of the Russian Federation in Sochi.",
+      "The company’s work spans residential, mixed-use and hospitality buildings in Serbia, Montenegro and Russia — from a building on Politova Street in Belgrade to a resort for the Central Bank of the Russian Federation in Sochi.",
       "“An architect should be on the path of meeting people’s most fundamental needs — a place to live first among them.”"
     ],
     "chronoTitle": "Chronology",
@@ -324,7 +324,7 @@
     },
     "specTitle": "About the project",
     "descTitle": "Description",
-    "practice": "Practice",
+    "practice": "Company",
     "practiceValue": "Vinex Projekt"
   },
   "news": {

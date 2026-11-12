@@ -6,11 +6,11 @@
   "meta": {
     "siteName": "Vinex Projekt",
     "homeTitle": "Vinex Projekt — arhitektura, urbanizam i nadzor izgradnje | Beograd",
-    "homeDescription": "Vinex Projekt d.o.o. je beogradski biro za projektovanje, urbanizam i stručni nadzor izgradnje, osnovan 2008. Projekti u Srbiji, Crnoj Gori i Rusiji.",
+    "homeDescription": "Vinex Projekt d.o.o. je beogradska kompanija za projektovanje, urbanizam i stručni nadzor izgradnje, osnovana 2008. Projekti u Srbiji, Crnoj Gori i Rusiji.",
     "methodTitle": "Naš pristup | Vinex Projekt",
     "methodDescription": "Šest principa po kojima Vinex Projekt projektuje: preciznost linije, prirodni materijali, svetlost i proporcija, mesto, čovek i trajnost.",
     "credentialsTitle": "Licence i kvalifikacije | Vinex Projekt",
-    "credentialsDescription": "Licence Inženjerske komore Srbije osnivača biroa Vinex Projekt, Ranka Labovića, dipl. inž. arh.: urbanista, projektant i izvođač radova.",
+    "credentialsDescription": "Licence Inženjerske komore Srbije osnivača kompanije Vinex Projekt, Ranka Labovića, dipl. inž. arh.: urbanista, projektant i izvođač radova.",
     "newsListTitle": "Novosti | Vinex Projekt",
     "projectsTitle": "Projekti | Vinex Projekt",
     "servicesTitle": "Usluge | Vinex Projekt",
@@ -45,16 +45,16 @@
   "hero": {
     "kicker": "Arhitektura · Urbanizam · Nadzor izgradnje",
     "title": "Lepota prostora koja odoleva zubu vremena.",
-    "lead": "Vinex Projekt je beogradski biro za projektovanje, urbanizam i stručni nadzor — od idejnog rešenja do primopredaje objekta, u Srbiji i regionu.",
+    "lead": "Vinex Projekt je beogradska kompanija za projektovanje, urbanizam i stručni nadzor — od idejnog rešenja do primopredaje objekta, u Srbiji i regionu.",
     "ctaProjects": "Pogledajte projekte",
     "ctaContact": "Besplatne konsultacije",
-    "imageAlt": "Espanjola, Herceg Novi — terasa s pogledom na more, projekat biroa Vinex Projekt",
+    "imageAlt": "Espanjola, Herceg Novi — terasa s pogledom na more, projekat kompanije Vinex Projekt",
     "founderLine": "Ranko Labović, dipl. inž. arh. — osnivač i direktor",
     "cardKicker": "Izdvojeni projekat"
   },
 
   "stats": [
-    { "value": "2008", "label": "godina osnivanja biroa" },
+    { "value": "2008", "label": "godina osnivanja kompanije" },
     { "value": "3", "label": "licence Inženjerske komore Srbije" },
     { "value": "3", "label": "zemlje: Srbija, Crna Gora, Rusija" },
     { "value": "11", "label": "usluga — od projekta do nadzora" }
@@ -62,7 +62,7 @@
 
   "about": {
     "kicker": "O nama",
-    "statementStrong": "Vinex Projekt je beogradski biro za arhitekturu, urbanizam i nadzor izgradnje —",
+    "statementStrong": "Vinex Projekt je beogradska kompanija za arhitekturu, urbanizam i nadzor izgradnje —",
     "statementSoft": "verujemo u preciznost svake linije i toplinu prirodnih materijala, stvarajući prostore koji zrače autoritetom i mirom.",
     "paragraphs": [
       "Od 2008. godine pružamo usluge planiranja, projektovanja i nadzora izgradnje, sa ciljem da svaki projekat pretvorimo u uspešnu i održivu stvarnost.",
@@ -73,7 +73,7 @@
     "founderName": "Ranko Labović",
     "founderRole": "Diplomirani inženjer arhitekture · odgovorni urbanista, projektant i izvođač radova (IKS)",
     "founderQuote": "„Arhitekta treba da bude na putu rešavanja osnovnih egzistencijalnih potreba čoveka, kao što je smeštajni prostor.”",
-    "founderAlt": "Ranko Labović, osnivač i direktor biroa Vinex Projekt, u kancelariji u Beogradu"
+    "founderAlt": "Ranko Labović, osnivač i direktor kompanije Vinex Projekt, u kancelariji u Beogradu"
   },
 
   "v2": {
@@ -82,12 +82,12 @@
     "servicesText": "Kompletan spektar usluga u oblasti arhitekture, projektovanja i nadzora izgradnje.",
     "projectsKicker": "Projekti",
     "projectsTitle": "Gradimo prostore koji odolevaju vremenu",
-    "projectsText": "Odabrani radovi biroa — stambeni, stambeno-poslovni i turistički objekti.",
+    "projectsText": "Odabrani radovi kompanije — stambeni, stambeno-poslovni i turistički objekti.",
     "approachKicker": "Pristup",
     "approachTitle": "Arhitektura je tihi dijalog svetlosti, teksture i proporcije",
     "credsKicker": "Licence",
     "credsTitle": "Odgovornost potvrđena licencama",
-    "credsText": "Osnivač biroa je član Inženjerske komore Srbije sa tri licence.",
+    "credsText": "Osnivač kompanije je član Inženjerske komore Srbije sa tri licence.",
     "newsKicker": "Novosti",
     "newsTitle": "Iz naše prakse",
     "ctaKicker": "Kontakt",
@@ -101,12 +101,12 @@
     "readMore": "Pročitaj više",
     "readMethod": "Ceo pristup",
     "allCreds": "Sve licence",
-    "aboutCta": "O birou",
+    "aboutCta": "O kompaniji",
     "specTitle": "Podaci o projektu",
     "descTitle": "O projektu",
     "galleryTitle": "Galerija",
     "officeTitle": "Kancelarija",
-    "footerText": "Biro za arhitekturu, urbanizam i nadzor izgradnje iz Beograda, osnovan 2008.",
+    "footerText": "Kompanija za arhitekturu, urbanizam i nadzor izgradnje iz Beograda, osnovana 2008.",
     "menu": "Meni",
     "enlarge": "Uvećaj"
   }
