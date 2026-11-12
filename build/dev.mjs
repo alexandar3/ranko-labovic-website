@@ -1,13 +1,17 @@
 // Dev mode: build, serve dist/, watch sources, rebuild on change and live-reload the browser.
 // Usage: npm run dev   (optional port: npm run dev -- 3001)
+//        npm run dev:v2 (--v2 flag: build-v2.mjs -> dist-v2/, default port 3002)
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, '$1')), '..');
-const DIST = path.join(ROOT, 'dist');
-let port = Number(process.argv[2] || process.env.PORT || 3000);
+const V2 = process.argv.includes('--v2');
+const DIST = path.join(ROOT, V2 ? 'dist-v2' : 'dist');
+const BUILD = V2 ? 'build-v2.mjs' : 'build.mjs';
+const portArg = process.argv.slice(2).find((a) => /^\d+$/.test(a));
+let port = Number(portArg || process.env.PORT || (V2 ? 3002 : 3000));
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
@@ -22,7 +26,7 @@ function run(script) {
 }
 function build(withImages) {
   const t = Date.now();
-  const ok = (!withImages || run('images.mjs')) && run('build.mjs');
+  const ok = (!withImages || run('images.mjs')) && run(BUILD);
   console.log(ok ? `✓ rebuilt in ${Date.now() - t} ms` : '✗ build failed — fix the error above, then save again');
   return ok;
 }
@@ -65,7 +69,7 @@ const server = http.createServer((req, res) => {
 
 // ---- watch sources
 const WATCH = [
-  ['content', false], ['src', false], ['build', false], ['assets/fonts', false],
+  ['content', false], ['src', false], ['build', false], ['assets/fonts', false], ['assets/v2', false],
   ['assets/images/originals', true], ['assets/images/diplomas', true],
 ];
 let timer = null, needImages = false;

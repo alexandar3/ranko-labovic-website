@@ -1,0 +1,113 @@
+{
+  "_readme": "VERSION 2 overrides (Vinex Projekt brand). Deep-merged over content/i18n/sr.json by build/build-v2.mjs — only keys that differ from v1 live here. v1 never reads this file.",
+
+  "brand": { "name": "Vinex Projekt", "role": "arhitektura i projektovanje" },
+
+  "meta": {
+    "siteName": "Vinex Projekt",
+    "homeTitle": "Vinex Projekt — arhitektura, urbanizam i nadzor izgradnje | Beograd",
+    "homeDescription": "Vinex Projekt d.o.o. je beogradski biro za projektovanje, urbanizam i stručni nadzor izgradnje, osnovan 2008. Projekti u Srbiji, Crnoj Gori i Rusiji.",
+    "methodTitle": "Naš pristup | Vinex Projekt",
+    "methodDescription": "Šest principa po kojima Vinex Projekt projektuje: preciznost linije, prirodni materijali, svetlost i proporcija, mesto, čovek i trajnost.",
+    "credentialsTitle": "Licence i kvalifikacije | Vinex Projekt",
+    "credentialsDescription": "Licence Inženjerske komore Srbije osnivača biroa Vinex Projekt, Ranka Labovića, dipl. inž. arh.: urbanista, projektant i izvođač radova.",
+    "newsListTitle": "Novosti | Vinex Projekt",
+    "projectsTitle": "Projekti | Vinex Projekt",
+    "servicesTitle": "Usluge | Vinex Projekt",
+    "contactTitle": "Kontakt i besplatne konsultacije | Vinex Projekt",
+    "contactDescription": "Kontaktirajte Vinex Projekt d.o.o., Palmotićeva 19, Beograd: 011 6555 520, info@rankolabovic.com. Besplatne početne konsultacije.",
+    "projectTitle": "{name} — {location} | Vinex Projekt",
+    "newsTitle": "{title} | Vinex Projekt",
+    "companyTitle": "Podaci o firmi | Vinex Projekt d.o.o.",
+    "privacyTitle": "Politika privatnosti | Vinex Projekt d.o.o.",
+    "notFoundTitle": "Stranica nije pronađena | Vinex Projekt"
+  },
+
+  "nav": {
+    "home": "Početna",
+    "projects": "Projekti",
+    "services": "Usluge",
+    "method": "Pristup",
+    "credentials": "Licence",
+    "newsList": "Novosti",
+    "contact": "Kontakt"
+  },
+
+  "pages": {
+    "projects": { "kicker": "Projekti", "title": "Arhitektura koja traje — u Srbiji, Crnoj Gori i Rusiji" },
+    "services": { "kicker": "Usluge", "title": "Od idejnog rešenja do primopredaje objekta" },
+    "method": { "kicker": "Pristup", "title": "Šest principa po kojima projektujemo" },
+    "credentials": { "kicker": "Licence", "title": "Licence Inženjerske komore Srbije" },
+    "newsList": { "kicker": "Novosti", "title": "Iz naše prakse i sveta arhitekture" },
+    "contact": { "kicker": "Kontakt", "title": "Razgovarajmo o vašem projektu" }
+  },
+
+  "hero": {
+    "kicker": "Arhitektura · Urbanizam · Nadzor izgradnje",
+    "title": "Lepota prostora koja odoleva zubu vremena.",
+    "lead": "Vinex Projekt je beogradski biro za projektovanje, urbanizam i stručni nadzor — od idejnog rešenja do primopredaje objekta, u Srbiji i regionu.",
+    "ctaProjects": "Pogledajte projekte",
+    "ctaContact": "Besplatne konsultacije",
+    "imageAlt": "Espanjola, Herceg Novi — terasa s pogledom na more, projekat biroa Vinex Projekt",
+    "founderLine": "Ranko Labović, dipl. inž. arh. — osnivač i direktor",
+    "cardKicker": "Izdvojeni projekat"
+  },
+
+  "stats": [
+    { "value": "2008", "label": "godina osnivanja biroa" },
+    { "value": "3", "label": "licence Inženjerske komore Srbije" },
+    { "value": "3", "label": "zemlje: Srbija, Crna Gora, Rusija" },
+    { "value": "11", "label": "usluga — od projekta do nadzora" }
+  ],
+
+  "about": {
+    "kicker": "O nama",
+    "statementStrong": "Vinex Projekt je beogradski biro za arhitekturu, urbanizam i nadzor izgradnje —",
+    "statementSoft": "verujemo u preciznost svake linije i toplinu prirodnih materijala, stvarajući prostore koji zrače autoritetom i mirom.",
+    "paragraphs": [
+      "Od 2008. godine pružamo usluge planiranja, projektovanja i nadzora izgradnje, sa ciljem da svaki projekat pretvorimo u uspešnu i održivu stvarnost.",
+      "Radili smo stambene, stambeno-poslovne i turističke objekte u Srbiji, Crnoj Gori i Rusiji — od zgrade u ulici Politova u Beogradu i objekta Espanjola uz Tvrđavu Španjola u Herceg Novom, do odmarališta Centralne banke Ruske Federacije u Sočiju."
+    ],
+    "cta": "Upoznajte naš pristup",
+    "founderKicker": "Osnivač i direktor",
+    "founderName": "Ranko Labović",
+    "founderRole": "Diplomirani inženjer arhitekture · odgovorni urbanista, projektant i izvođač radova (IKS)",
+    "founderQuote": "„Arhitekta treba da bude na putu rešavanja osnovnih egzistencijalnih potreba čoveka, kao što je smeštajni prostor.”",
+    "founderAlt": "Ranko Labović, osnivač i direktor biroa Vinex Projekt, u kancelariji u Beogradu"
+  },
+
+  "v2": {
+    "servicesKicker": "Usluge",
+    "servicesTitle": "Kompletan spektar usluga — od projekta do nadzora",
+    "servicesText": "Kompletan spektar usluga u oblasti arhitekture, projektovanja i nadzora izgradnje.",
+    "projectsKicker": "Projekti",
+    "projectsTitle": "Gradimo prostore koji odolevaju vremenu",
+    "projectsText": "Odabrani radovi biroa — stambeni, stambeno-poslovni i turistički objekti.",
+    "approachKicker": "Pristup",
+    "approachTitle": "Arhitektura je tihi dijalog svetlosti, teksture i proporcije",
+    "credsKicker": "Licence",
+    "credsTitle": "Odgovornost potvrđena licencama",
+    "credsText": "Osnivač biroa je član Inženjerske komore Srbije sa tri licence.",
+    "newsKicker": "Novosti",
+    "newsTitle": "Iz naše prakse",
+    "ctaKicker": "Kontakt",
+    "ctaTitle": "Vaš projekat počinje ovde.",
+    "ctaText": "Kontaktirajte nas za besplatne početne konsultacije — opišite projekat, a mi ćemo vam se javiti u najkraćem roku.",
+    "formTitle": "Pošaljite poruku",
+    "viewProject": "Pogledaj projekat",
+    "allProjects": "Svi projekti",
+    "allServices": "Sve usluge",
+    "allNews": "Sve novosti",
+    "readMore": "Pročitaj više",
+    "readMethod": "Ceo pristup",
+    "allCreds": "Sve licence",
+    "aboutCta": "O birou",
+    "specTitle": "Podaci o projektu",
+    "descTitle": "O projektu",
+    "galleryTitle": "Galerija",
+    "officeTitle": "Kancelarija",
+    "footerText": "Biro za arhitekturu, urbanizam i nadzor izgradnje iz Beograda, osnovan 2008.",
+    "menu": "Meni",
+    "enlarge": "Uvećaj"
+  }
+}

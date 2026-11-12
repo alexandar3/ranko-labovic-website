@@ -212,3 +212,33 @@ Before launch:
 | Form endpoint | Choice of form service |
 | Privacy policy text | The form collects name and email (ZZPL / GDPR); his current site has "Stranica u izradi" |
 | Optional: SVG logo | His Vinex mark is used for favicons only; the nav uses a text wordmark, like kostelov |
+
+## Version 2: Vinex Projekt (company site)
+
+A second, separate site built **alongside** v1. v1 (`build/build.mjs` → `dist/`) is untouched, and after the v2 work its build was checked byte-for-byte against a baseline: all 258 files are identical.
+
+- **Brand:** the company **Vinex Projekt d.o.o.** Ranko Labović appears as founder and director (dipl. inž. arh.). Titles, meta, Open Graph, JSON-LD, the nav and the footer all say Vinex Projekt.
+- **Design:** follows the Dribbble "Sustainable Energy / Green Business" reference: white page, rounded full-width hero card with the nav laid over the photo, medium-weight Inter headlines, one lime accent `#C6F01E` (buttons and dots only, always with dark text on top), "pill + square arrow" buttons, pill labels, a stats strip, a dark photo section with floating white service cards, an uneven project grid and grey cards. Only the style is copied; all text and images are Vinex's own.
+- **Logo:** the "V" mark is an inline SVG (`assets/v2/logo-mark.svg`, path in `logo-mark.path`). It was traced and then fitted to the original PNG (99.3% overlap). The "VINEX PROJEKT" wordmark is real text with wide letter-spacing.
+- **Favicon:** `favicon.svg` has a transparent background: dark on light tab bars, white on dark ones (via `prefers-color-scheme`). There are also transparent `favicon-32.png`, `icon-192.png` and `icon-512.png`. `apple-touch-icon.png` sits on a solid background because iOS doesn't support transparency.
+
+| Command | What it does |
+| --- | --- |
+| `npm run build:v2` | images + `build/build-v2.mjs` → `dist-v2/` |
+| `npm run html:v2` | rebuild v2 pages only |
+| `npm run dev:v2` | live-reload dev server at http://localhost:3002 |
+| `npm run serve:v2` | serve `dist-v2/` at http://localhost:3002 |
+
+**Files:**
+- `build/build-v2.mjs`: the v2 generator. It shares the URLs, sitemap, hreflang, JSON-LD, redirects and host configs with v1.
+- `src/v2/style.css` and `src/v2/main.js`: v2 styles and behaviour.
+- `content/v2/{sr,en,ru}.json`: **overrides** deep-merged over `content/i18n/<lang>.json` (brand, meta, nav, hero, stats, about, page titles, v2 labels). Change shared texts (services, projects, news) in `content/i18n/` and both versions update.
+- `assets/v2/`: logo and favicon.
+- Fonts: the Inter files already in `src/themes/kostelov/`, read-only.
+- The contact form uses the same `formEndpoint` and `formSubject` as v1 (FormSubmit → info@rankolabovic.com, subject "Website Pitanje").
+- Screenshots: `docs/v2-screens/`.
+
+**Checked:**
+- All 45 pages at 360, 375, 768, 1280 and 1920 px: no horizontal scroll and no console errors. Every page has one `<h1>`, every image has alt text, and all links and anchors resolve.
+- The mobile menu, lightboxes, form validation, language switch (keeps the page and `#hash`) and lazy map all work. Content stays visible with reduced motion and with JS off.
+- Lighthouse: Accessibility, Best Practices and SEO score 100 on every page tested; Performance scores 93–100.

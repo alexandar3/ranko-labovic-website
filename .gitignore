@@ -3,3 +3,4 @@ dist/
 assets/images/optimized/
 .DS_Store
 Thumbs.db
+dist-v2/

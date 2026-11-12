@@ -1,0 +1,113 @@
+{
+  "_readme": "VERSION 2 overrides (Vinex Projekt brand). Deep-merged over content/i18n/en.json by build/build-v2.mjs.",
+
+  "brand": { "name": "Vinex Projekt", "role": "architecture & design" },
+
+  "meta": {
+    "siteName": "Vinex Projekt",
+    "homeTitle": "Vinex Projekt — architecture, urban planning & construction supervision | Belgrade",
+    "homeDescription": "Vinex Projekt d.o.o. is a Belgrade practice for architectural design, urban planning and construction supervision, founded in 2008. Projects in Serbia, Montenegro and Russia.",
+    "methodTitle": "Our approach | Vinex Projekt",
+    "methodDescription": "Six principles behind the work of Vinex Projekt: precise lines, natural materials, light and proportion, place, people and permanence.",
+    "credentialsTitle": "Licences & credentials | Vinex Projekt",
+    "credentialsDescription": "Serbian Chamber of Engineers licences held by the founder of Vinex Projekt, Ranko Labović, Dipl. Eng. Arch.: urban planner, designer and contractor.",
+    "newsListTitle": "News | Vinex Projekt",
+    "projectsTitle": "Projects | Vinex Projekt",
+    "servicesTitle": "Services | Vinex Projekt",
+    "contactTitle": "Contact & free consultation | Vinex Projekt",
+    "contactDescription": "Contact Vinex Projekt d.o.o., Palmotićeva 19, Belgrade: +381 11 6555 520, info@rankolabovic.com. Free initial consultation.",
+    "projectTitle": "{name} — {location} | Vinex Projekt",
+    "newsTitle": "{title} | Vinex Projekt",
+    "companyTitle": "Company details | Vinex Projekt d.o.o.",
+    "privacyTitle": "Privacy policy | Vinex Projekt d.o.o.",
+    "notFoundTitle": "Page not found | Vinex Projekt"
+  },
+
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "method": "Approach",
+    "credentials": "Licences",
+    "newsList": "News",
+    "contact": "Contact"
+  },
+
+  "pages": {
+    "projects": { "kicker": "Projects", "title": "Architecture built to last — in Serbia, Montenegro and Russia" },
+    "services": { "kicker": "Services", "title": "From concept design to handover" },
+    "method": { "kicker": "Approach", "title": "Six principles that guide our design" },
+    "credentials": { "kicker": "Licences", "title": "Serbian Chamber of Engineers licences" },
+    "newsList": { "kicker": "News", "title": "From our practice and the world of architecture" },
+    "contact": { "kicker": "Contact", "title": "Let's talk about your project" }
+  },
+
+  "hero": {
+    "kicker": "Architecture · Urban planning · Construction supervision",
+    "title": "Beauty of space that stands the test of time.",
+    "lead": "Vinex Projekt is a Belgrade practice for architectural design, urban planning and construction supervision — from concept design to handover, in Serbia and across the region.",
+    "ctaProjects": "View our projects",
+    "ctaContact": "Free consultation",
+    "imageAlt": "Espanjola, Herceg Novi — terrace overlooking the sea, a Vinex Projekt project",
+    "founderLine": "Ranko Labović, Dipl. Eng. Arch. — founder and director",
+    "cardKicker": "Featured project"
+  },
+
+  "stats": [
+    { "value": "2008", "label": "year the practice was founded" },
+    { "value": "3", "label": "Serbian Chamber of Engineers licences" },
+    { "value": "3", "label": "countries: Serbia, Montenegro, Russia" },
+    { "value": "11", "label": "services — from design to supervision" }
+  ],
+
+  "about": {
+    "kicker": "About us",
+    "statementStrong": "Vinex Projekt is a Belgrade practice for architecture, urban planning and construction supervision —",
+    "statementSoft": "we believe in the precision of every line and the warmth of natural materials, creating spaces that radiate authority and calm.",
+    "paragraphs": [
+      "Since 2008 we have provided planning, design and construction-supervision services, with one aim: to turn every project into a successful and lasting reality.",
+      "Our work includes residential, mixed-use and hospitality buildings in Serbia, Montenegro and Russia — from the building on Politova Street in Belgrade and Espanjola beside the Španjola Fortress in Herceg Novi, to a resort for the Central Bank of the Russian Federation in Sochi."
+    ],
+    "cta": "Our approach",
+    "founderKicker": "Founder and director",
+    "founderName": "Ranko Labović",
+    "founderRole": "Graduate engineer of architecture · licensed urban planner, designer and contractor (Serbian Chamber of Engineers)",
+    "founderQuote": "“An architect should be on the path of meeting people’s most fundamental needs — a place to live first among them.”",
+    "founderAlt": "Ranko Labović, founder and director of Vinex Projekt, in the Belgrade office"
+  },
+
+  "v2": {
+    "servicesKicker": "Services",
+    "servicesTitle": "The full range of services — from design to supervision",
+    "servicesText": "The full range of services in architecture, design and construction supervision.",
+    "projectsKicker": "Projects",
+    "projectsTitle": "Building spaces that stand the test of time",
+    "projectsText": "Selected work — residential, mixed-use and hospitality buildings.",
+    "approachKicker": "Approach",
+    "approachTitle": "Architecture is a quiet dialogue between light, texture and proportion",
+    "credsKicker": "Licences",
+    "credsTitle": "Responsibility backed by licences",
+    "credsText": "The founder of the practice is a member of the Serbian Chamber of Engineers with three licences.",
+    "newsKicker": "News",
+    "newsTitle": "From our practice",
+    "ctaKicker": "Contact",
+    "ctaTitle": "Your project begins here.",
+    "ctaText": "Get in touch for a free initial consultation — tell us about your project and we will reply as soon as possible.",
+    "formTitle": "Send a message",
+    "viewProject": "View project",
+    "allProjects": "All projects",
+    "allServices": "All services",
+    "allNews": "All news",
+    "readMore": "Read more",
+    "readMethod": "Our full approach",
+    "allCreds": "All licences",
+    "aboutCta": "About the practice",
+    "specTitle": "Project facts",
+    "descTitle": "About the project",
+    "galleryTitle": "Gallery",
+    "officeTitle": "Office",
+    "footerText": "A Belgrade practice for architecture, urban planning and construction supervision, founded in 2008.",
+    "menu": "Menu",
+    "enlarge": "Enlarge"
+  }
+}

@@ -10,10 +10,16 @@
     "build": "node build/images.mjs && node build/build.mjs",
     "html": "node build/build.mjs",
     "serve": "node build/serve.mjs",
-    "start": "npm run build && npm run serve"
+    "start": "npm run build && npm run serve",
+    "build:v2": "node build/images.mjs && node build/build-v2.mjs",
+    "html:v2": "node build/build-v2.mjs",
+    "dev:v2": "node build/dev.mjs --v2",
+    "serve:v2": "node build/serve.mjs --v2"
   },
   "devDependencies": {
     "sharp": "0.33.5"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }
