@@ -1,0 +1,51 @@
+/* Theme "klasik" — the old architect's studio: aged drafting paper, drafting-ink blue,
+   sepia and graphite text, antique-brass instruments, walnut frames. Inter throughout.
+   Switch themes with "theme" in content/site.json (or THEME=klasik npm run build). */
+:root {
+  /* surfaces — aged ivory drafting paper */
+  --bg: #ece3d0;
+  --panel: #f5efe2;
+  --white: #fffcf5;
+  --intro-bg: #faf6ec;
+  --line: #d6c9ae;        /* pencil-line hairlines */
+  /* text — graphite and sepia */
+  --ink: #2a251f;
+  --mut: #665848;         /* WCAG AA on all light surfaces */
+  --pale: #ddd0b4;        /* faded-paper first word of giant headings (decorative) */
+  /* accent — antique brass */
+  --accent: #7d5f24;
+  --accent-hover: #5e4618;
+  --accent-lt: #d2b273;   /* brass on the ink-blue band */
+  --on-accent: #ffffff;
+  /* nav + contact band — drafting-ink blue */
+  --dark: #1e2a36;
+  --on-dark: #f3eee3;
+  --on-dark-mut: #b7c0c8;
+  --line-dark: rgba(255, 255, 255, .14);
+  --nav-link: #c9cfd5;
+  --nav-lang: #a9b4be;
+  --nav-active: #ffffff;
+  /* framed documents — dark walnut with a brass edge, on an ivory mat */
+  --mat: #fbf7ee;
+  --frame: #3b2a1c;
+  --frame-grad: linear-gradient(140deg, #5a4128, #2f2116 30%, #8c6a33 50%, #3a2a1b 70%, #261a10);
+  --shadow: rgba(40, 28, 15, .5);
+  --paper: #f1e8d4;
+  /* photos — warm sepia monochrome, like old prints; colour on hover */
+  --photo-filter: grayscale(100%) sepia(.35) contrast(1.02) brightness(.98);
+  --shade: 24, 30, 38;
+  --lb-bg: rgba(20, 26, 33, .97);
+  /* type — Inter */
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --display: var(--sans);
+  --display-weight: 700;
+  --display-light: 400;
+  --ds: 1;
+  --track-xl: -.04em;
+  --track-l: -.03em;
+  --track-m: -.02em;
+  --logo-track: .08em;
+  --logo-size: 1.05rem;
+}
+/* the dark word of giant headings in drafting-ink blue */
+.intro h1 .dk { color: var(--dark); }

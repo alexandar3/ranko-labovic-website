@@ -7,8 +7,8 @@
     "en",
     "ru"
   ],
-  "theme": "bordo",
-  "_theme": "Visual theme (colours + fonts) from src/themes/<name>/. Available: \"bordo\" (burgundy / olive / beige, Inter), \"formbureau\" (formbureau.co.uk blues, Inter), \"kostelov\" (beige/bronze, Inter — version 2) and \"terracotta\" (concrete/copper/terracotta, Unbounded + Onest). Change this word and rebuild to switch.",
+  "theme": "klasik",
+  "_theme": "Visual theme (colours + fonts) from src/themes/<name>/. Available: \"klasik\" (old architect: parchment, drafting-ink blue, sepia, brass, Inter), \"bordo\" (burgundy / olive / beige, Inter), \"formbureau\" (formbureau.co.uk blues, Inter), \"kostelov\" (beige/bronze, Inter — version 2) and \"terracotta\" (concrete/copper/terracotta, Unbounded + Onest). Change this word and rebuild to switch.",
   "showTodos": true,
   "_showTodos": "true = unknown facts are shown as a visible TODO tag (for review). Set to false before launch to show a dash instead.",
   "formEndpoint": "https://formsubmit.co/ajax/info@rankolabovic.com",
